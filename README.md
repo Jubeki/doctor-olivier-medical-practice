@@ -1,4 +1,4 @@
-# Doctor Olivier -- Medical Practice
+# Doctor Olivier &ndash; Medical Practice
 
 Write up a business description of the activities of an organization  and how they are to be supported by the new website.
 
@@ -7,7 +7,7 @@ Company Information:
 - Prof. Dr. Dr. Med. Corey B. Olivier
 
 1. Define the title of the website, choose a suitable domain name (making sure that it is still available) and provide a brief explanation of its purpose.
-    * Title: Doctor Olivier -- Medical Practice
+    * Title: Doctor Olivier &ndash; Medical Practice
     * Domain: doctor-olivier.uk
     * Purpose: provide information about medical practice (opening hours, team, location, services, news) self-advert, online-appointments (booking & execution). 
 

@@ -1,10 +1,10 @@
 # Doctor Olivier &ndash; Medical Practice
 
-Write up a business description of the activities of an organization  and how they are to be supported by the new website.
+Write up a business description of the activities of an organization and how they are to be supported by the new website.
 
 Company Information:
 - Hausarzt Praxis
-- Prof. Dr. Dr. Med. Corey B. Olivier
+- Prof. Dr. Dr. med. Corey B. Olivier
 
 1. Define the title of the website, choose a suitable domain name (making sure that it is still available) and provide a brief explanation of its purpose.
     * Title: Doctor Olivier &ndash; Medical Practice
@@ -30,13 +30,13 @@ Company Information:
     - Contact / Location
 
 4. For each webpage, provide a file name, a title (for the &lt;title&gt; element) and some sample content (including pictures/images).
-    * index.html, "Doctor Olivier -- Medical Practice"
+    * index.html, "Doctor Olivier &ndash; Medical Practice"
     * news.html, "News"
-    * news-ARTICLENAME-ID.html, "News - ARTICLE NAME"
+    * news-ARTICLENAME-ID.html, "News &ndash; ARTICLE NAME"
     * team.html, "Our Team"
     * services.html, "Our Services"
     * blog.html, "The World of Health"
-    * blog-ENTRYNAME-ID.html, "Blog - ENTRY NAME"
+    * blog-ENTRYNAME-ID.html, "Blog &ndash; ENTRY NAME"
     * imprint.html, "Imprint"
     * contact.html, "Contact us!"
     * video-app.html, "Video Appointment"

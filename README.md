@@ -1,33 +1,31 @@
 # Doctor Olivier &ndash; Medical Practice
 
-Write up a business description of the activities of an organization and how they are to be supported by the new website.
+## Business Description
 
-Company Information:
-- Hausarzt Praxis
-- Prof. Dr. Dr. med. Corey B. Olivier
+Dr. med. Corey B. Olivier is an experienced general practitioner situated in Bridlington, England. Within his visiting times and during appointments, he performs examinations on his patients, gives diagnosis, issues referrals and writes new prescriptions or repeats existing ones. In addition, appointments for vaccines can be made at our practice. Dr. Olivier is supported by a small team of staff members which handle most of the logistics regarding questions, appointments and patient data. 
 
-1. Define the title of the website, choose a suitable domain name (making sure that it is still available) and provide a brief explanation of its purpose.
-    * Title: Doctor Olivier &ndash; Medical Practice
-    * Domain: doctor-olivier.uk
-    * Purpose: provide information about medical practice (opening hours, team, location, services, news) self-advert, online-appointments (booking & execution). 
+## Website Requirements
 
-2. Make a website design diagram that specifies the website's views, areas and pages using the method described in the lecture slides about Website Design.
-=>
+Due to the increasing number of patients and workload, we are looking for a new website that provides information about the practice to our patients and handles some of the more repetitive tasks for the convenience of both us and our patients. We would like to list not only the opening hours and services of our practice, but also introduce our team and provide information regarding the current state of the pandemic. Two main self-serve services that should be featured on the website are an online appointment booker, thus eliminating the need for repeating phone calls, as well as online prescription ordering for repeat-prescriptions which are then to be sent by mail by us. In addition, Dr. Olivier would like to have a space to write a blog informing patients about general health-best-practices as well as spreading awareness of unterestimated diseases and risks.
 
-3. Make a list of the webpages that the website should contain. The website must consist of at least 10 (and at most 20) webpages for a team of 2 members.
-    - Home (Opening Hours, partials of subsites)
-        - All News regarding the practice (new opening hours, new vaccination arrived, ...)
-            - Show News Content
-        - Team
-        - Services
-    - Medical Information Blog (New medical achievements, health tips and tricks)
-        - Show Post content
-    - Imprint
-    - Appointment Booking
-    - Order recipes online (Form that asks name and insurance info (already registered with practice), and can state which recipes are needed to be sent)
-    - Recent information regarding Corona
-    - Doctor's Video Chat (Appointment Execution)
-    - Contact / Location
+The title of the website should be "Doctor Olivier &ndash; Medical Practice" and it should be reachable at the domain "doctor-olivier.uk". A general diagram of the website design is the following:
+
+**##TODO: Website Design Diagram##**
+
+This leads to the following list of webpages:  
+- Home (Opening Hours, partials of subsites)
+    - All News regarding the practice (new opening hours, new vaccination arrived, ...)
+        - Show News Content
+    - Team
+    - Services
+- Medical Information Blog (New medical achievements, health tips and tricks)
+    - Show Post content
+- Imprint
+- Appointment Booking
+- Order recipes online (Form that asks name and insurance info (already registered with practice), and can state which recipes are needed to be sent)
+- Recent information regarding Corona
+- Doctor's Video Chat (Appointment Execution)
+- Contact / Location
 
 4. For each webpage, provide a file name, a title (for the &lt;title&gt; element) and some sample content (including pictures/images).
     * index.html, "Doctor Olivier &ndash; Medical Practice"

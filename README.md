@@ -27,19 +27,8 @@ This leads to the following list of webpages:
 - Doctor's Video Chat (Appointment Execution)
 - Contact / Location
 
-4. For each webpage, provide a file name, a title (for the &lt;title&gt; element) and some sample content (including pictures/images).
-    * index.html, "Doctor Olivier &ndash; Medical Practice"
-    * news.html, "News"
-    * news-ARTICLENAME-ID.html, "News &ndash; ARTICLE NAME"
-    * team.html, "Our Team"
-    * services.html, "Our Services"
-    * blog.html, "The World of Health"
-    * blog-ENTRYNAME-ID.html, "Blog &ndash; ENTRY NAME"
-    * imprint.html, "Imprint"
-    * contact.html, "Contact us!"
-    * video-app.html, "Video Appointment"
-    * app-booking.html, "Online Appointment Booker"
-    * order-recipes.html, "Order Recipes Online"
+4. For each webpage, provide a file name, a title (for the &lt;title&gt; element) and some sample content (including pictures/images).  
+See `sites` folder
 
 5. Also provide general requirements of how the website should look and feel (colors, fonts, layout, decorative elements, etc.)
 => 

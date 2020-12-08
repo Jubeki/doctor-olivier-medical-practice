@@ -1,6 +1,9 @@
 filename: Team.html  
 title: Our Team
 
+content:
+<!-- TODO -->
+
 images:
 ![Doctor Olivier](../images/doctor-olivier.jpg)
 ![Caroline Harrison](../images/team-caroline.jpg)

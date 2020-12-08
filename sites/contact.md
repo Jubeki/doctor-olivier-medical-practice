@@ -3,11 +3,11 @@ title: Contact us!
 
 content:
 
-Monday: 07:00 - 10:00  
-Tuesday: 07:00 - 10:00 &amp; 13:00 - 17:00  
+Monday: 07:00 - 10:00 AM  
+Tuesday: 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM  
 Wednesday: only appointments  
-Thursday: 07:00 - 10:00 &amp; 13:00 - 17:00  
-Friday: 07:00 - 10:00  
+Thursday: 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM  
+Friday: 07:00 - 10:00 AM  
 Saturday: closed  
 Sunday: closed
 

@@ -33,7 +33,7 @@ The "Contact Us" page should allow patients and those interested in registering 
 > **We are encouraging everyone who has access to a computer, smart phone or tablet to use AskMyGP!**
 
 It should be possible to click our AskMyGP link (https://my.askmygp.uk/?c=S71379) from somewhere within the last paragraph, or a corresponding image / box. A corresponding image / box could be, for instance:
-![AskMyGP](../images/askmygp.png)   
+![AskMyGP](../images/askmygp-contact.png)   
 *(Image source: https://www.boroughlochmedicalpractice.com/appointments2/)*
 
 Finally, the online contact formular should include the following fields, so we can keep up correspondence with patients writing to us this way:

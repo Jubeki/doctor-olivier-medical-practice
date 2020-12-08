@@ -15,7 +15,9 @@ For the convenience of our patients, we want to offer a way to order prescriptio
 > 
 > If the usage of AskMyGP is not an option for you, you may also order your prescriptions here. Note that this process may take longer before you are able to collect your prescription (up to 8 business days).
  
-You can include our AskMyGP link here in a similar fashion as you did for our contact site (see [contact.md](contact.md) for more information).
+You can include our AskMyGP link here in a similar fashion as you did for our contact site (see [contact.md](contact.md) for more information). The image to be used here is
+![AskMyGP](../images/askmygp-prescriptions.png)   
+*(Image source: https://www.boroughlochmedicalpractice.com/repeat-prescriptions/)*
 
 The prescription formular should have the following fields so we can identify the patient and pull his address and prescriptions from our archives:
 - Name

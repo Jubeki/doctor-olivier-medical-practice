@@ -14,8 +14,6 @@ The title of the website should be "Doctor Olivier &ndash; Medical Practice" and
 
 This leads to the following list of webpages:  
 - Home (Opening Hours, partials of subsites)
-    - All News regarding the practice (new opening hours, new vaccination arrived, ...)
-        - Show News Content
     - Team
     - Services
 - Medical Information Blog (New medical achievements, health tips and tricks)

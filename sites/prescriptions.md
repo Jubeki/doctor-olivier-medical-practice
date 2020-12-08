@@ -1,5 +1,5 @@
-filename: repeat-prescriptions.html  
-title: Re-order Prescriptions Online
+filename: reorder-prescriptions.html  
+title: Re-order Prescriptions
 
 used sources:
 - https://www.boroughlochmedicalpractice.com/repeat-prescriptions/

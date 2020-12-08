@@ -2,6 +2,7 @@
 <!DOCTYPE posts SYSTEM "blog.dtd">
 <posts>
 
+    <!-- https://www.pacificmedicalcenters.org/physician-articles/annual-checkups-deliver-value-to-women -->
     <post published="2020-11-03">
 
         <title>Annual Checkups Deliver Value to Women</title>
@@ -24,10 +25,11 @@
 
         <attachments>
 
+            <image location="https://images.unsplash.com/photo-1544620282-a141af6d3738?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=934&amp;q=80">Pregnant Woman</image>
+
             <links>
     
-                <link location="#">Make an appointment</link>
-                <link location="https://www.pacificmedicalcenters.org/physician-articles/annual-checkups-deliver-value-to-women">Source (Used only for education purposes)</link>
+                <link location="/appointment-book.html">Make an appointment</link>
     
             </links>
 
@@ -35,6 +37,7 @@
 
     </post>
 
+    <!-- Source: https://www.pacificmedicalcenters.org/about-us/news-press/a-huge-breath-of-fresh-air/ -->
     <post published="2020-09-26">
 
         <title>"A huge breath of fresh air"</title>
@@ -65,22 +68,13 @@
 
         <attachments>
 
-            <images>
-
-                <image location="https://www.pacificmedicalcenters.org/images/uploads/glaspie_vff.jpg">Sabina Saburova Glaspie struggled to breathe for years—until she found USFHP and PacMed</image>
-
-            </images>
-
-            <links>
-
-                <link location="https://www.pacificmedicalcenters.org/about-us/news-press/a-huge-breath-of-fresh-air/">Source (Used only for education purposes)</link>
-    
-            </links>
+            <image location="https://www.pacificmedicalcenters.org/images/uploads/glaspie_vff.jpg">Sabina Saburova Glaspie struggled to breathe for years—until she found USFHP and PacMed</image>
 
         </attachments>
 
     </post>
 
+    <!-- Source: https://www.boroughlochmedicalpractice.com/coronavirus-advice/ -->
     <post published="2020-05-18">
 
         <title>Coronavirus Advice</title>
@@ -101,18 +95,14 @@
 
         <attachments>
 
-            <images>
+            <image location="https://www.boroughlochmedicalpractice.com/wp-content/uploads/2020/02/480px-2019-nCoV-CDC-23312_without_background.png">Corinavirus Resources</image>
 
-                <image location="https://www.boroughlochmedicalpractice.com/wp-content/uploads/2020/02/480px-2019-nCoV-CDC-23312_without_background.png">Corinavirus Resources</image>
-
-            </images>
 
             <links>
     
                 <link location="https://www.nhsinform.scot/illnesses-and-conditions/infections-and-poisoning/coronavirus-covid-19/coronavirus-covid-19-general-advice">General advice</link>
                 <link location="https://www.nhsinform.scot/self-help-guides/self-help-guide-coronavirus-covid-19">Check your symptoms</link>
                 <link location="https://www.nhsinform.scot/illnesses-and-conditions/infections-and-poisoning/coronavirus-covid-19/coronavirus-covid-19-physical-distancing">Physical Distancing</link>
-                <link location="https://www.boroughlochmedicalpractice.com/coronavirus-advice/">Source (Used only for education purposes)</link>
     
             </links>
 

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT posts (post*)>
+
 <!ELEMENT post (title, author, content, attachments?)>
 <!ATTLIST post published CDATA #REQUIRED>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT content (#PCDATA)>
-<!ELEMENT attachments ((images?, links?) | (links?, images?))>
+
+<!-- Further Reading -->
+<!ELEMENT attachments (image, links?)>
 <!ELEMENT links (link*)>
 <!ELEMENT link (#PCDATA)>
 <!ATTLIST link location CDATA #REQUIRED>
-<!ELEMENT images (image*)>
+
+<!-- Header Image -->
 <!ELEMENT image (#PCDATA)>
 <!ATTLIST image location CDATA #REQUIRED>

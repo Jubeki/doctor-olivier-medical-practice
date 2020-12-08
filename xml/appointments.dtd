@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT week (day,day,day,day,day,day,day)>
+<!ATTLIST week
+    weeknumber CDATA #REQUIRED
+    from CDATA #REQUIRED
+    to CDATA #REQUIRED
+>
+<!ELEMENT day (appointment*)>
+<!ELEMENT appointment EMPTY>
+<!ATTLIST appointment
+    from CDATA #REQUIRED
+    to CDATA #REQUIRED
+>

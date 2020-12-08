@@ -2,57 +2,32 @@
 
 ## Business Description
 
-Dr. med. Corey B. Olivier is an experienced general practitioner situated in Bridlington, England. Within his visiting times and during appointments, he performs examinations on his patients, gives diagnosis, issues referrals and writes new prescriptions or repeats existing ones. In addition, appointments for vaccines can be made at our practice. Dr. Olivier is supported by a small team of staff members which handle most of the logistics regarding questions, appointments and patient data. 
+Dr. med. Corey B. Olivier is a young general practitioner situated in Bridlington, England. Within his visiting times and during appointments, he performs examinations on his patients, gives diagnosis, issues referrals and writes new prescriptions or repeats existing ones. In addition, appointments for vaccines can be made at our practice (for a whole list of our services, see the contents of [sites/services.md](sites/services.md)). Dr. Olivier is supported by a small team of staff members which handle most of the logistics regarding questions, appointments and patient data. 
+
+In addition to the usual means of contacting your general practician (practice visits or house calls), we also participate in the usage of of AskMyGP, an app that allows patients to easily book appointments, re-order prescriptions and even perform a video call with their general practician. Unfortunately, it has become apparent that some of our patients cannot access this service for certain reasons, which is why we intend to provide alternative ways to book appointments and re-order prescriptions online.
 
 ## Website Requirements
 
-Due to the increasing number of patients and workload, we are looking for a new website that provides information about the practice to our patients and handles some of the more repetitive tasks for the convenience of both us and our patients. We would like to list not only the opening hours and services of our practice, but also introduce our team and provide information regarding the current state of the pandemic. Two main self-serve services that should be featured on the website are an online appointment booker, thus eliminating the need for repeating phone calls, as well as online prescription ordering for repeat-prescriptions which are then to be sent by mail by us. In addition, Dr. Olivier would like to have a space to write a blog informing patients about general health-best-practices as well as spreading awareness of unterestimated diseases and risks.
+To provide information to our patients more effectively and take care of common tasks (making appointments and re-ordering prescriptions) in a more automatic manner, we are looking to create a website for the convenience of us and our patients. We would like to list not only the opening hours and services of our practice, but also introduce our team and provide information regarding the current state of the pandemic. In addition, Dr. Olivier would like to have a space to write a blog informing patients about general health-best-practices as well as spreading awareness of unterestimated diseases and risks.
 
-The title of the website should be "Doctor Olivier &ndash; Medical Practice" and it should be reachable at the domain "doctor-olivier.uk". A general diagram of the website design is the following:
+The title of the website should be "Doctor Olivier &ndash; Medical Practice" and it should be reachable at the domain "doctor-olivier.uk". A general diagram of of the website and its pages can be seen here:
+![Website Design Diagram](Website-Design-Diagram.svg)
+More specific information about each page and its contents is documented in the `sites` folder.
 
-**##TODO: Website Design Diagram##**
+In general, we would like the website to be modern and mobile-optimized with a clean, professional feel to it. It should convey trust to the Patients, so they feel like they are in good hands when deciding to visit Dr. Olivier for a medical consultation. As part of our branding, we'd like the colors to correspond to the lighter and / or darker colors of the image [of doctor olivier](images/doctor-olivier.jpg). A cooler color temperature is desired, since it feels more hygenic. Furthermore, we'd also like the fonts to reflect this general feeling, though we explicitly wish that they be Sans Serif types.
 
-This leads to the following list of webpages:  
-- Home (Opening Hours, partials of subsites)
-    - Team
+The layout of the web pages should follow the following general concept:
+- Header with image of the doctor for branding and important information such as opening hours, location and contact data
+- Navigation bar at the top with practice logo, which shouldn't move while scrolling
+    - Home
+    - Our Team
     - Services
-- Medical Information Blog (New medical achievements, health tips and tricks)
-    - Show Post content
-- Imprint
-- Appointment Booking
-- Order recipes online (Form that asks name and insurance info (already registered with practice), and can state which recipes are needed to be sent)
-- Recent information regarding Corona
-- Doctor's Video Chat (Appointment Execution)
-- Contact / Location
+    - Blog
+    - Contact Us
+- Main Page Content
+- Footer with links to other pages
+    - Data Protection Notice
+    - Contact (This is down here a second time, because many people may expect it to be here instead of the nav, but it's also too important to not list in the nav)
+    - A Copyright Notice
 
-4. For each webpage, provide a file name, a title (for the &lt;title&gt; element) and some sample content (including pictures/images).  
-See `sites` folder
-
-5. Also provide general requirements of how the website should look and feel (colors, fonts, layout, decorative elements, etc.)
-=> 
-
-Your requirements must include 3 of the following items:
-
-1. a page based on an XML data file (such as an address list or a product list)
-    * For the blog and news content
-2. a SVG to be created by your web developers, and
-    * Corona Diagram
-3. an audio or video content.
-    * Video: Corona protection tips
-
-Write your business description and website requirements in the form of a GitHub `README.md` page and submit only the link to your repo.
-
-When you are notified about who are the developers for your website, you have to grant write access to them by inviting them as contributors.
-
-### Points
-
-This first part of assignment 2 counts for 20% of the total number of points according to the following grading schema:
-
-| Item     | Points   |
-| -------- | -------- |
-| business description                                               | 1   |
-| website title, domain and purpose                                  | 1   |
-| website design diagram                                             | 1   |
-| at least 10 webpages with meaningful file name, title and content  | 4   |
-| look and feel                                                      | 2   |
-| XML/SVG/audio/video                                                | 1   |
+The homepage is an exception: we would like it to stand out from the other pages with a more individual design. For instance, it can have a bigger header which displays our practice logo more clearly. It should also provide large links that entice first-time viewers to dive deeper into e.g. the services we offer (for more info on what should be shown on the homepage, see [index.md](sites/index.md)).

@@ -10,7 +10,7 @@ The "Contact Us" page should allow patients and those interested in registering 
 > |---------|-----------------------------------------|
 > |Monday   | 07:00 - 10:00 AM                        |
 > |Tuesday  | 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM |
-> |Wednesday| *appointments only*                     |
+> |Wednesday| *appointments given by doctor only*     |
 > |Thursday | 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM |
 > |Friday   | 07:00 - 10:00 AM                        |
 > |Saturday | *closed*                                |

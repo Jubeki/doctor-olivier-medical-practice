@@ -6,7 +6,6 @@ used sources:
 
 content:
 
-
 Our Services
 
 - **General practitioner care including home visits**
@@ -47,6 +46,8 @@ As part of our medical obligation, we refer you, if necessary, to specialists, c
 
 
 images:
+EKG
+Vaccination
 ![Nutritons](../images/nutrition.jpg)
 ![Nutritons 2](../images/nutrition2.jpg)
 ![Labor Utils](../images/labor-utils.jpg)

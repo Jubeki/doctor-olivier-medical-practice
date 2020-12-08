@@ -5,7 +5,14 @@
 <!ATTLIST post published CDATA #REQUIRED>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
-<!ELEMENT content (#PCDATA)>
+
+<!-- simple html content -->
+<!ELEMENT content ((p|ul)*)>
+<!ELEMENT p (#PCDATA|a)*>
+<!ELEMENT ul (li*)>
+<!ELEMENT li (#PCDATA)>
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA #REQUIRED>
 
 <!-- Further Reading -->
 <!ELEMENT attachments (image, links?)>

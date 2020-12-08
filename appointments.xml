@@ -7,70 +7,36 @@
 
     <!-- Monday -->
     <day>
-        <appointment from="07:00 AM" to="07:10 AM" />
-        <appointment from="07:10 AM" to="07:20 AM" />
-        <appointment from="07:20 AM" to="07:30 AM" />
         <appointment from="07:30 AM" to="07:40 AM" />
         <appointment from="07:40 AM" to="07:50 AM" />
-        <appointment from="07:50 AM" to="08:00 AM" />
-        <appointment from="08:00 AM" to="08:10 AM" />
         <appointment from="08:10 AM" to="08:20 AM" />
         <appointment from="08:20 AM" to="08:30 AM" />
-        <appointment from="08:30 AM" to="08:40 AM" />
-        <appointment from="08:40 AM" to="08:50 AM" />
         <appointment from="08:50 AM" to="09:00 AM" />
         <appointment from="09:00 AM" to="09:10 AM" />
         <appointment from="09:10 AM" to="09:20 AM" />
-        <appointment from="09:20 AM" to="09:30 AM" />
-        <appointment from="09:30 AM" to="09:40 AM" />
-        <appointment from="09:40 AM" to="09:50 AM" />
         <appointment from="09:50 AM" to="10:00 AM" />
     </day>
     
     <!-- Tuesday -->
     <day>
-        <appointment from="07:00 AM" to="07:10 AM" />
-        <appointment from="07:10 AM" to="07:20 AM" />
         <appointment from="07:20 AM" to="07:30 AM" />
         <appointment from="07:30 AM" to="07:40 AM" />
         <appointment from="07:40 AM" to="07:50 AM" />
-        <appointment from="07:50 AM" to="08:00 AM" />
-        <appointment from="08:00 AM" to="08:10 AM" />
         <appointment from="08:10 AM" to="08:20 AM" />
-        <appointment from="08:20 AM" to="08:30 AM" />
-        <appointment from="08:30 AM" to="08:40 AM" />
         <appointment from="08:40 AM" to="08:50 AM" />
-        <appointment from="08:50 AM" to="09:00 AM" />
-        <appointment from="09:00 AM" to="09:10 AM" />
         <appointment from="09:10 AM" to="09:20 AM" />
         <appointment from="09:20 AM" to="09:30 AM" />
-        <appointment from="09:30 AM" to="09:40 AM" />
-        <appointment from="09:40 AM" to="09:50 AM" />
-        <appointment from="09:50 AM" to="10:00 AM" />
 
         <appointment from="01:00 PM" to="01:10 PM" />
-        <appointment from="01:10 PM" to="01:20 PM" />
-        <appointment from="01:20 PM" to="01:30 PM" />
-        <appointment from="01:30 PM" to="01:40 PM" />
         <appointment from="01:40 PM" to="01:50 PM" />
         <appointment from="01:50 PM" to="02:00 PM" />
-        <appointment from="02:00 PM" to="02:10 PM" />
-        <appointment from="02:10 PM" to="02:20 PM" />
         <appointment from="02:20 PM" to="02:30 PM" />
         <appointment from="02:30 PM" to="02:40 PM" />
         <appointment from="02:40 PM" to="02:50 PM" />
         <appointment from="02:50 PM" to="03:00 PM" />
-        <appointment from="03:00 PM" to="03:10 PM" />
-        <appointment from="03:10 PM" to="03:20 PM" />
-        <appointment from="03:20 PM" to="03:30 PM" />
-        <appointment from="03:30 PM" to="03:40 PM" />
         <appointment from="03:40 PM" to="03:50 PM" />
-        <appointment from="03:50 PM" to="04:00 PM" />
-        <appointment from="04:00 PM" to="04:10 PM" />
         <appointment from="04:10 PM" to="04:20 PM" />
         <appointment from="04:20 PM" to="04:30 PM" />
-        <appointment from="04:30 PM" to="04:40 PM" />
-        <appointment from="04:40 PM" to="04:50 PM" />
         <appointment from="04:50 PM" to="05:00 PM" />
     </day>
     
@@ -81,66 +47,39 @@
     <day>
         <appointment from="07:00 AM" to="07:10 AM" />
         <appointment from="07:10 AM" to="07:20 AM" />
-        <appointment from="07:20 AM" to="07:30 AM" />
-        <appointment from="07:30 AM" to="07:40 AM" />
         <appointment from="07:40 AM" to="07:50 AM" />
         <appointment from="07:50 AM" to="08:00 AM" />
-        <appointment from="08:00 AM" to="08:10 AM" />
-        <appointment from="08:10 AM" to="08:20 AM" />
         <appointment from="08:20 AM" to="08:30 AM" />
         <appointment from="08:30 AM" to="08:40 AM" />
-        <appointment from="08:40 AM" to="08:50 AM" />
-        <appointment from="08:50 AM" to="09:00 AM" />
         <appointment from="09:00 AM" to="09:10 AM" />
         <appointment from="09:10 AM" to="09:20 AM" />
         <appointment from="09:20 AM" to="09:30 AM" />
-        <appointment from="09:30 AM" to="09:40 AM" />
-        <appointment from="09:40 AM" to="09:50 AM" />
         <appointment from="09:50 AM" to="10:00 AM" />
-        
-        <appointment from="01:00 PM" to="01:10 PM" />
-        <appointment from="01:10 PM" to="01:20 PM" />
+
         <appointment from="01:20 PM" to="01:30 PM" />
-        <appointment from="01:30 PM" to="01:40 PM" />
         <appointment from="01:40 PM" to="01:50 PM" />
         <appointment from="01:50 PM" to="02:00 PM" />
         <appointment from="02:00 PM" to="02:10 PM" />
-        <appointment from="02:10 PM" to="02:20 PM" />
-        <appointment from="02:20 PM" to="02:30 PM" />
         <appointment from="02:30 PM" to="02:40 PM" />
         <appointment from="02:40 PM" to="02:50 PM" />
         <appointment from="02:50 PM" to="03:00 PM" />
-        <appointment from="03:00 PM" to="03:10 PM" />
-        <appointment from="03:10 PM" to="03:20 PM" />
-        <appointment from="03:20 PM" to="03:30 PM" />
         <appointment from="03:30 PM" to="03:40 PM" />
         <appointment from="03:40 PM" to="03:50 PM" />
         <appointment from="03:50 PM" to="04:00 PM" />
         <appointment from="04:00 PM" to="04:10 PM" />
         <appointment from="04:10 PM" to="04:20 PM" />
         <appointment from="04:20 PM" to="04:30 PM" />
-        <appointment from="04:30 PM" to="04:40 PM" />
         <appointment from="04:40 PM" to="04:50 PM" />
         <appointment from="04:50 PM" to="05:00 PM" />
     </day>
     
     <!-- Friday -->
     <day>
-        <appointment from="07:00 AM" to="07:10 AM" />
         <appointment from="07:10 AM" to="07:20 AM" />
-        <appointment from="07:20 AM" to="07:30 AM" />
         <appointment from="07:30 AM" to="07:40 AM" />
-        <appointment from="07:40 AM" to="07:50 AM" />
-        <appointment from="07:50 AM" to="08:00 AM" />
-        <appointment from="08:00 AM" to="08:10 AM" />
         <appointment from="08:10 AM" to="08:20 AM" />
         <appointment from="08:20 AM" to="08:30 AM" />
-        <appointment from="08:30 AM" to="08:40 AM" />
-        <appointment from="08:40 AM" to="08:50 AM" />
-        <appointment from="08:50 AM" to="09:00 AM" />
         <appointment from="09:00 AM" to="09:10 AM" />
-        <appointment from="09:10 AM" to="09:20 AM" />
-        <appointment from="09:20 AM" to="09:30 AM" />
         <appointment from="09:30 AM" to="09:40 AM" />
         <appointment from="09:40 AM" to="09:50 AM" />
         <appointment from="09:50 AM" to="10:00 AM" />

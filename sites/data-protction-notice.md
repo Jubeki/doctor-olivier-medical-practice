@@ -1,8 +1,11 @@
-filename: data-protection-notice.html  
-title: Data Protection Notice
+|          |                                                 | 
+|----------|-------------------------------------------------|
+| filename | data-protection-notice.html                     |
+| title    | Data Protection Notice                          |
+| *source* | https://www.boroughlochmedicalpractice.com/DPN/ |
+-------------------------------------------------------------
+**## TODO: WRITEUP ##**
 
-used sources:
-- https://www.boroughlochmedicalpractice.com/DPN/
 
 content:
 1. About Olivier's Medical Practice

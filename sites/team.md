@@ -1,5 +1,9 @@
-filename: Team.html  
-title: Our Team
+|          |                            |
+|----------|----------------------------|
+| filename | team.html                  |
+| title    | Our Team                   |
+-----------------------------------------
+**## TODO: WRITEUP ##**
 
 content:
 <!-- TODO -->

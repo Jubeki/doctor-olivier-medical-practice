@@ -1,7 +1,10 @@
-filename: covid-19.html  
-title: COVID-19
+|          |                                       |
+|----------|---------------------------------------|
+| filename | covid-19.html                         |
+| title    | COVID-19 &ndash; Current Information  |
+----------------------------------------------------
+**## TODO: WRITEUP ##**
 
-content:
 <!-- TODO -->
 
 Diagram Bild => SVG

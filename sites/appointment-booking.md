@@ -1,9 +1,8 @@
-
-|          |
+|          |                            |
 |----------|----------------------------|
 | filename | appointment-booking.html   |
 | title    | Make an Appointment        |
--------------------------------------
+-----------------------------------------
 
 This page is intended to allow our patients to book an appointment quickly and intuitively, without the need for contacting us directly. We have already engaged a different contractor to work on handling the appointments that are received, here, but we will still need you to design the form.
 

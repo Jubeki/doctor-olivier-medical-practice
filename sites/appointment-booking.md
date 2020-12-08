@@ -14,3 +14,15 @@ After an appointment is chosen, the user should see a confirmation of the bookin
 
 
 **Note:** You do not need to give actual functionality to these pages yet. All our contractor wants is the design. So the "Submit" buttons should simply lead to the appointment list based on the example XML and the confirmation window.
+
+Reasons for the appointment:
+- House visit
+- Psychosomatic care
+- Nutritional advice
+- Vaccination advice
+- Vaccination
+- General Health Examination
+- Cancer screening examination
+- Other => Results in extra field
+
+=> Textarea to provide as much information as possible

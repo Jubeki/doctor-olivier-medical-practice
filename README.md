@@ -10,49 +10,36 @@ Due to the increasing number of patients and workload, we are looking for a new 
 
 The title of the website should be "Doctor Olivier &ndash; Medical Practice" and it should be reachable at the domain "doctor-olivier.uk". A general diagram of the website design is the following:
 
-**##TODO: Website Design Diagram##**
 
-This leads to the following list of webpages:  
-- Home (Opening Hours, partials of subsites)
-    - Team
-    - Services
-- Medical Information Blog (New medical achievements, health tips and tricks)
-    - Show Post content
-- Imprint
-- Appointment Booking
-- Order recipes online (Form that asks name and insurance info (already registered with practice), and can state which recipes are needed to be sent)
-- Recent information regarding Corona
-- Doctor's Video Chat (Appointment Execution)
-- Contact / Location
 
-4. For each webpage, provide a file name, a title (for the &lt;title&gt; element) and some sample content (including pictures/images).  
-See `sites` folder
+<!-- TODO: Fabian -->
+![Website Design Diagram](Website-Design-Diagram.jpeg)
+
+The information about each page are written down in the `sites` folder.
+
+
+
+<!-- TODO: Fabian -->
+How should the page look and file like:
+- Clean
+- Professional
+
+For the colors: Please use the dark and light background color as brand color from doctor-olivier.jpg
+Also a cool gray instead of a warm gray would be best. Because this looks cleaner.
+
+Except the home page the layout should be the following:
+- Navigation bar at the top
+- Header with image of the doctor and important information such as opening hours, location and contact data
+- Main Content
+- Footer with links to other pages like:
+    - Corona
+    - Data Protection Notice
+    - ...
+- Copyright Notice
+
+Fonts:
+Professional and type sans
+
 
 5. Also provide general requirements of how the website should look and feel (colors, fonts, layout, decorative elements, etc.)
 => 
-
-Your requirements must include 3 of the following items:
-
-1. a page based on an XML data file (such as an address list or a product list)
-    * For the blog and news content
-2. a SVG to be created by your web developers, and
-    * Corona Diagram
-3. an audio or video content.
-    * Video: Corona protection tips
-
-Write your business description and website requirements in the form of a GitHub `README.md` page and submit only the link to your repo.
-
-When you are notified about who are the developers for your website, you have to grant write access to them by inviting them as contributors.
-
-### Points
-
-This first part of assignment 2 counts for 20% of the total number of points according to the following grading schema:
-
-| Item     | Points   |
-| -------- | -------- |
-| business description                                               | 1   |
-| website title, domain and purpose                                  | 1   |
-| website design diagram                                             | 1   |
-| at least 10 webpages with meaningful file name, title and content  | 4   |
-| look and feel                                                      | 2   |
-| XML/SVG/audio/video                                                | 1   |

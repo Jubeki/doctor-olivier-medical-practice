@@ -21,7 +21,7 @@ In case a patient decides to use the form, they have to identify themselves to b
 * Other (Will require the patient to write the reason into a text field)
 The average length of the appointment depends on the reason of the visit. 
 
-Once all information is put in, a list of possible appointments (date and time) should pop up for the user to choose from. Our contractor says that this information will be sent as an "XML file". Here is an example XML file: [appointments.xml](../appointments.xml)
+Once all information is put in, a list of possible appointments (date and time) should pop up for the user to choose from. Our contractor says that this information will be sent as an "XML file". Here is an example XML file: [appointments.xml](../xml/appointments.xml)
 
 After an appointment is chosen, the user should see a confirmation of the booking and be lead back to our home page.
 

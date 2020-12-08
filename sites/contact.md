@@ -3,34 +3,36 @@
 | filename | contact.html               |
 | title    | Contact us                 |
 -----------------------------------------
-**## TODO: WRITEUP ##**
 
-Monday: 07:00 - 10:00 AM  
-Tuesday: 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM  
-Wednesday: only appointments  
-Thursday: 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM  
-Friday: 07:00 - 10:00 AM  
-Saturday: closed  
-Sunday: closed
+The "Contact Us" page should allow patients and those interested in registering with our practice to find out how to get in touch with us. It should show the opening hours, address, an online contact-formular (the contents of which will be sent to us by E-Mail if submitted; our back-end provider will take care of this, for now you can concentrate on just the design), and a number to contact us outside of the office hours. Our opening hours are:
 
-we are also open for you if you have an appointment with us.
+> |Weekday  | Opening Time                            |
+> |---------|-----------------------------------------|
+> |Monday   | 07:00 - 10:00 AM                        |
+> |Tuesday  | 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM |
+> |Wednesday| *appointments only*                     |
+> |Thursday | 07:00 - 10:00 AM &amp; 01:00 - 05:00 PM |
+> |Friday   | 07:00 - 10:00 AM                        |
+> |Saturday | *closed*                                |
+> |Sunday   | *closed*                                |
+> *We are also open for you if you have an appointment with us.*
 
-Outside of the office hours NHS 24 ( Tel 111 ) can be reached for emergencies!
+Also, please include the following statements verbatim below our opening hours:
 
-IF YOUR CONDITION IS LIFE THREATENING, please dial 999
+> Outside of the office hours NHS 24 ( Tel 111 ) can be reached for emergencies!
+> 
+> IF YOUR CONDITION IS LIFE THREATENING, please dial 999
 
 
-Olivier's Medical Practice
+The following are the main ways to contact us:
 
-Address: Ross Gardens 43, Edinburgh, EH9 3BP  
-Email: team@doctor-olivier.uk  
-Phone: +44 131 229 0000
+> Address: Ross Gardens 43, Edinburgh, EH9 3BP  
+> Email: team@doctor-olivier.uk  
+> Phone: +44 131 229 0000
 
-Contactformular
-
+Finally, the online contact formular should include the following fields, so we can keep up correspondence with patients writing to us this way:
 - Name
-- Address
-- Phone
 - Email
+- Phone (Optional)
 - Subject
 - Message

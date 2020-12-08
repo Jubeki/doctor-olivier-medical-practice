@@ -1,4 +1,4 @@
-filename: dpn.html  
+filename: data-protection-notice.html  
 title: Data Protection Notice
 
 used sources:

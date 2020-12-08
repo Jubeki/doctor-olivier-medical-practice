@@ -36,4 +36,4 @@ In addition, a short YouTube video titled "Coronavirus and how to Protect Yourse
 | Usage Example   | Source                                                                                                   | Image                             |
 |-----------------|----------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Introduction    | https://www.der-paritaetische.de/fileadmin/_processed_/c/9/csm_200317_slider_corona_faq_08af9f6d2a.png   | ![Corona](../images/corona.png)   |
-| Rules to follow | https://www.vorarlberg.travel/wp-content/uploads/2020/09/corona-icons-english-c-vorarlberg-tourismus.png | ![Corona Rules](corona-rules.png) |
+| Rules to follow | https://www.vorarlberg.travel/wp-content/uploads/2020/09/corona-icons-english-c-vorarlberg-tourismus.png | ![Corona Rules](../images/corona-rules.png) |

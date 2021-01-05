@@ -71,28 +71,36 @@
 
 /* NEW CODE STARTS HERE*/
 
-.covid-info {
+.contact-info {
     background: white;
     padding-top: 10%;
     padding-left: 1%;
     font-family: Avenir;
     font-size: 18px;
     text-align: left;
-    float: right;
+    float: left;
     padding: 1%;
-    width: 70%;
+    width: 60%;
 }
 
-.covid {
+.contact {
     margin: 0 auto;
     flex-flow: row;
     padding-top: 10%;
 }
 
-.covid-imgs {
+.askmy-img {
     display: flex;
     flex-direction: column;
     margin: 20px;
+    width: 25%;
+}
+
+.askmy-img a {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 25%;
 }
 
 img.sticky {
@@ -102,30 +110,24 @@ img.sticky {
     margin: 20px;
 }
 
-img.sticky2 {
-    position: fixed;
-    padding: 20px;
-    width: 20%;
-    margin: 20px;
-    padding-top: 12%;
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-iframe.sticky3 {
-    position: fixed;
-    padding: 20px;
-    margin: 20px;
-    padding-top: 20%;
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
 }
 
-.charts {
-    padding: 20px;
-    padding-top: 10%;
-    flex-direction: row;
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
 
-
-.container:before, .container:after {
-    content: " ";
-    display: table;
-    clear: both;
+tr:nth-child(even) {
+    background-color: #dddddd;
 }

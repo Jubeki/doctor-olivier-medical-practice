@@ -12,32 +12,30 @@
             <header>
                 <div class="header">
                     <div class="svg">
-                        
-                        <!-- 300 × 153 - 1,96 breite = 1 hoehe Seitenverhaeltnis -->
-                        <img src="images/logo.png" style="height:100px; width: 196px;"/>
+                        <img src="images/logo.png" style="height: 5vw;" alt="logoindex"/>
                     </div>
                     <div class="sidebar">
+                        <a href="index.html"><button class="sidebarItemButton">Home</button></a>
+                        <a href="team.html"><button class="sidebarItemButton">Our Team</button></a>
+                        <a href="services.html"><button class="sidebarItemButton">Our Service</button></a>
+                        <a href="blog.html"><button class="sidebarItemButton">Blog</button></a>
+                        <a href="contact.html"><button class="sidebarItemButton">Contact Us</button></a>
                         
-                        <a href="index.html"><button class="sidebarItem">Home</button></a>
-                        <a href="team.html"><button class="sidebarItem">Our Team</button></a>
-                        <a href="services.html"><button class="sidebarItem">Our Service</button></a>
-                        <a href="blog.html"><button class="sidebarItem">Blog</button></a>
-                        <a href="contact.html"><button class="sidebarItem">Contact Us</button></a>
                         
                     </div>
                     <div class="infos">
-                        <p>
+                        <p>                            
                             opening hours:<br>
-                            Monday: 07:00 - 10:00 AM<br>
-                            Tuesday: 07:00 - 10:00 AM & 01:00 - 05:00 PM<br>
-                            Wednesday: appointments given by doctor only<br>
-                            Thursday: 07:00 - 10:00 AM & 01:00 - 05:00 PM
-                            Friday: 07:00 - 10:00 AM<br>
-                            We are closed on weekends!
+                            Mo: 07:00-10:00 AM<br>
+                            Tu/Th: 07:00-10:00 AM & 01:00-05:00 PM<br>
+                            We: appointments given by doctor only<br>
+                            Fr: 07:00-10:00 AM<br>
+                            Closed on weekends!<br><br>
                         </p>
+                        
                     </div>
                     <div class="docphoto">
-                        <img src="images/doctor-olivier.jpg" style="height:100px; width: 150px;"/>
+                        <img src="images/doctor-olivier.jpg" style="height: 5vw;" alt="logoindex"/>
                     </div>
                 </div>
             </header>
@@ -46,11 +44,11 @@
             
                 <div class = "contact-info">
                     <p>
-                        Address: Ross Gardens 43, Edinburgh, EH9 3BP<br>
+                        <b>Address:</b> Ross Gardens 43, Edinburgh, EH9 3BP<br>
                         
-                        Email: <a href= "mailto:team@doctor-olivier.uk">team@doctor-olivier.uk</a><br>
+                        <b>Email:</b> <a href= "mailto:team@doctor-olivier.uk">team@doctor-olivier.uk</a><br>
                         
-                        Phone: +44 131 229 0000<br><br>
+                        <b>Phone:</b> +44 131 229 0000<br><br>
                         
                         <table>
                             <tr>
@@ -86,16 +84,51 @@
                                 <td> </td>
                             </tr>
                         </table>
-                        
-                        Table<br><br>
+                        <br><br>
                         
                         Outside of the office hours NHS 24 ( Tel 111 ) can be reached for emergencies!<br>
-                        IF YOUR CONDITION IS LIFE THREATENING, please dial 999!<br><br>
                         
-                        In addition, Dr. Olivier can also be contacted using the AskmyGP appointment booking system. This service is available to all our patients, 24 hours a day. AskmyGP is simple and straightforward. <b>We are encouraging everyone who has access to a computer, smart phone or tablet to use AskMyGP!</b>
+                        <b style="font-size: 25px;">IF YOUR CONDITION IS LIFE THREATENING, please dial 999!</b><br><br>
+                        
+                        In addition, Dr. Olivier can also be contacted using the AskmyGP appointment booking system. This service is available to all our patients, 24 hours a day. AskmyGP is simple and straightforward. <b>We are encouraging everyone who has access to a computer, smart phone or tablet to use AskMyGP!</b><br><br>
+                        
+                        <b style="font-size: 20px;">If you want to contact us directly please fill out the form below.</b><br><br>
                             
                     </p>
+                    
+                    <div class="form">
+                        <form action="/action_page.php">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name..">
+                            
+                            <label for="email">E-Mail</label>
+                            <input type="text" id="email" name="email" placeholder="Your e-mail adress..">
+                            
+                            <label for="phone">Phone (optional)</label>
+                            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
+                            
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="The subject of your message..">
+                            
+                            <!--
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                            </select>
+                            -->
+                            
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write something.." style="height:15vw"></textarea>
+                            
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                    
                 </div>
+                
+                
                 
                 <div class = "askmy-img">
                     

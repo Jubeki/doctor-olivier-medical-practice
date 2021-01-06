@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Avenir;
 }
 
 .container {
@@ -14,11 +13,10 @@
 
 .container > * {
     flex: 1 100%;
-
 }
 
 .header{
-    background: #912441;
+    background: #b93a5c;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -30,15 +28,23 @@
 }
 
 .body{
-    background: white;
-    padding-top: 25%;
-    display: block;
-    flex-flow: row;
+    background: aquamarine;
+    padding-top: 15%;
+}
+
+.infos {
+    
 }
 
 .infos p {
     color: white;
-    font-size: 14px;
+    font-size:0.8vw;
+}
+
+@media only screen and (max-width 1200px) {
+    .infos {
+        display: none !important;
+    }
 }
 
 .sidebar{
@@ -47,27 +53,26 @@
     justify-content: space-around;
 }
 
-.sidebarItem{
-    
-    background-color: azure;
-    font-family: Avenir;
-    font-size: 14px;
+.docphoto {
     border: 2px solid black;
-    padding: 15px 32px;
+}
+
+.sidebarItemButton{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px 22px;
     text-align: center;
     display: inline-block;
     border-radius: 12px;
     transition-duration:0.4s;
 }
 
-
-.sidebarItem:hover{
-    
-    background-color: #912441;
-    font-family: Avenir;
+.sidebarItemButton:hover{
+    background-color: #da5378;
     color: white;
-    
 }
+
+
 
 /* NEW CODE STARTS HERE*/
 
@@ -75,7 +80,6 @@
     background: white;
     padding-top: 10%;
     padding-left: 1%;
-    font-family: Avenir;
     font-size: 18px;
     text-align: left;
     float: left;
@@ -87,6 +91,9 @@
     margin: 0 auto;
     flex-flow: row;
     padding-top: 10%;
+    font-family: arial;
+    font-weight: 200;
+    height: 70%;
 }
 
 .askmy-img {
@@ -111,7 +118,8 @@ img.sticky {
 }
 
 table {
-    font-family: arial, sans-serif;
+    font-family: arial;
+    font-weight: 200;
     border-collapse: collapse;
     width: 100%;
 }
@@ -128,6 +136,39 @@ td {
     padding: 8px;
 }
 
+/* FORM HERE */
+
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-top: 2%;
 }

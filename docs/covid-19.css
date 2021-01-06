@@ -1,7 +1,6 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: Avenir;
 }
 
 .container {
@@ -14,11 +13,10 @@
 
 .container > * {
     flex: 1 100%;
-
 }
 
 .header{
-    background: #912441;
+    background: #b93a5c;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -30,15 +28,23 @@
 }
 
 .body{
-    background: white;
-    padding-top: 25%;
-    display: block;
-    flex-flow: row;
+    background: aquamarine;
+    padding-top: 15%;
+}
+
+.infos {
+    
 }
 
 .infos p {
     color: white;
-    font-size: 14px;
+    font-size:0.8vw;
+}
+
+@media only screen and (max-width 1200px) {
+    .infos {
+        display: none !important;
+    }
 }
 
 .sidebar{
@@ -47,26 +53,23 @@
     justify-content: space-around;
 }
 
-.sidebarItem{
-    
-    background-color: azure;
-    font-family: Avenir;
-    font-size: 14px;
+.docphoto {
     border: 2px solid black;
-    padding: 15px 32px;
+}
+
+.sidebarItemButton{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px 22px;
     text-align: center;
     display: inline-block;
     border-radius: 12px;
     transition-duration:0.4s;
 }
 
-
-.sidebarItem:hover{
-    
-    background-color: #912441;
-    font-family: Avenir;
+.sidebarItemButton:hover{
+    background-color: #da5378;
     color: white;
-    
 }
 
 /* NEW CODE STARTS HERE*/
@@ -75,31 +78,37 @@
     background: white;
     padding-top: 10%;
     padding-left: 1%;
-    font-family: Avenir;
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
     float: right;
     padding: 1%;
     width: 70%;
+    font-family: 'Arial';
+    font-weight: 200;
+}
+
+.covid-info.p.b {
+    font-family: 'Arial';
+    font-weight: 700;
 }
 
 .covid {
     margin: 0 auto;
     flex-flow: row;
-    padding-top: 10%;
+    padding-top: 7%;
 }
 
 .covid-imgs {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 1%;
 }
 
 img.sticky {
     position: fixed;
     padding: 20px;
     width: 20%;
-    margin: 20px;
+    margin: 1%;
 }
 
 img.sticky2 {
@@ -107,19 +116,19 @@ img.sticky2 {
     padding: 20px;
     width: 20%;
     margin: 20px;
-    padding-top: 12%;
+    padding-top: 14%;
 }
 
 iframe.sticky3 {
     position: fixed;
     padding: 20px;
     margin: 20px;
-    padding-top: 20%;
+    padding-top: 21%;
 }
 
 .charts {
     padding: 20px;
-    padding-top: 10%;
+    padding-top: 1%;
     flex-direction: row;
 }
 

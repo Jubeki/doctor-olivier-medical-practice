@@ -1,7 +1,6 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: Avenir;
 }
 
 .container {
@@ -14,11 +13,10 @@
 
 .container > * {
     flex: 1 100%;
-
 }
 
 .header{
-    background: #912441;
+    background: #b93a5c;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -29,53 +27,24 @@
     border-bottom: 2px solid black;
 }
 
-
-
 .body{
-    background: white;
-    padding-top: 25%;
-}
-
-.quote {
-    background: white;
-    padding-top: 20%;
-    font-family: Avenir;
-    font-size: 25px;
-    width: 50%;
-    align-self: center;
-}
-
-.scrollformore {
-    background: white;
-    padding-top: 20%;
-    font-family: Avenir;
-    font-size: 25px;
-    align-self: center;
-    align-content: bottom;
-}
-
-.teamdes {
-    background: white;
-    padding-top: 5%;
-    padding-left: 1%;
-    font-family: Avenir;
-    font-size: 20px;
-    text-align: left;
-}
-
-.endofteam {
-    padding-top: 0%;
+    background: aquamarine;
+    padding-top: 15%;
 }
 
 .infos {
     
-    color: white;
-    font-size: 8;
 }
 
 .infos p {
     color: white;
-    font-size: 14px;
+    font-size:0.8vw;
+}
+
+@media only screen and (max-width 1200px) {
+    .infos {
+        display: none !important;
+    }
 }
 
 .sidebar{
@@ -84,24 +53,91 @@
     justify-content: space-around;
 }
 
-.sidebarItem{
-    
-    background-color: azure;
-    font-family: Avenir;
-    font-size: 14px;
+.docphoto {
     border: 2px solid black;
-    padding: 15px 32px;
+}
+
+.sidebarItemButton{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px 22px;
     text-align: center;
     display: inline-block;
     border-radius: 12px;
     transition-duration:0.4s;
 }
 
-
-.sidebarItem:hover{
-    
-    background-color: #912441;
-    font-family: Avenir;
+.sidebarItemButton:hover{
+    background-color: #da5378;
     color: white;
-    
+}
+
+/* END OF HEADER CSS */
+
+
+.body{
+    background: white;
+    padding-top: 25%;
+    font-family: arial;
+    font-weight: 200;
+}
+
+.quote {
+    background: white;
+    padding-top: 20%;
+    font-size: 25px;
+    width: 50%;
+    align-self: center;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.scrollformore {
+    background: white;
+    padding-top: 20%;
+    font-size: 25px;
+    align-self: center;
+    font-family: arial;
+    font-weight: 200;
+}
+
+.teamdes {
+    font-family: arial;
+    font-weight: 200;
+    background: white;
+    padding-top: 10%;
+    padding-left: 1%;
+    font-size: 18px;
+    text-align: left;
+    float: left;
+    padding: 1%;
+    width: 40%;
+}
+
+.des-photo {
+    margin: 0 auto;
+    flex-flow: row;
+    padding-top: 10%;
+    font-family: arial;
+    font-weight: 200;
+    height: 70%;
+}
+
+.endofteam {
+    padding-top: 0%;
+}
+
+.askmy-img {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 25%;
+}
+
+img.sticky {
+    position: fixed;
+    padding: 20px;
+    width: 20%;
+    margin: 20px;
 }

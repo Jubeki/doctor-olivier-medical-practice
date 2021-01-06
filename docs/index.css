@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 
 .container {
@@ -16,7 +17,7 @@
 }
 
 .header{
-    background: #912441;
+    background: #b93a5c;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -32,11 +33,19 @@
     padding-top: 15%;
 }
 
+.infos {
+    
+}
 
-.infos p{
+.infos p {
     color: white;
-    font-family: Avenir;
-    font-size: 14px;
+    font-size:0.8vw;
+}
+
+@media only screen and (max-width 1200px) {
+    .infos {
+        display: none !important;
+    }
 }
 
 .sidebar{
@@ -45,9 +54,12 @@
     justify-content: space-around;
 }
 
+.docphoto {
+    border: 2px solid black;
+}
+
 .sidebarItemButton{
-    background-color: azure;
-    font-family: Avenir;
+    background-color: white;
     border: 2px solid black;
     padding: 20px 22px;
     text-align: center;
@@ -56,9 +68,8 @@
     transition-duration:0.4s;
 }
 
-.sidebarItem:hover{
-    background-color: #912441;
-    font-family: Avenir;
+.sidebarItemButton:hover{
+    background-color: #da5378;
     color: white;
 }
 

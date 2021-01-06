@@ -1,3 +1,19 @@
+# Devision of Work
+
+Alexander Mueller  
+- index, blog, prescriptions, appointment-booking pages (more complex ones)  
+- header prototype  
+
+
+Carlo Bueckert  
+- contact, corona, data-protection-notice, services, team pages (simpler ones)  
+- footer  
+- refine header  
+- adaptive design to accomodate scaling and smaller screens  
+
+
+
+
 # Doctor Olivier &ndash; Medical Practice
 
 ## Business Description

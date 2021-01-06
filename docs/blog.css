@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* We first create a flex layout context */
+    display: flex;
+    flex-flow: column;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.infos p{
+    color: white;
+    font-family: Avenir;
+    font-size: 14px;
+}
+
+.container > * {
+    flex: 1 100%;
+}
+
+.header{
+    background: #912441;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 22%;
+    border-bottom: 2px solid black;
+}
+
+.body{
+    background: whitesmoke;
+    padding-top: 10%;
+
+}
+
+.blogBody{
+    display:flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.blogEntry{
+    color: green;
+    width: 50%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sidebarItem{
+    background-color: azure;
+    font-family: Avenir;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    transition-duration:0.4s;
+}
+
+.sidebarItem:hover{
+    background-color: #912441;
+    font-family: Avenir;
+    color: white;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+    padding: 50px;
+
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+
+    border-left: 4px solid #912441;
+    border-right: 4px solid #912441;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h2{
+    background-color: azure;
+    font-family: Avenir;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    transition-duration:0.4s;
+}
+
+.h2:hover{
+    background-color: #912441;
+    font-family: Avenir;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram{
+    background: #125688;
+    color: white;
+}
+.fa:hover{
+    opacity: 0.7;
+}

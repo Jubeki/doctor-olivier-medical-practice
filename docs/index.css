@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* We first create a flex layout context */
+    display: flex;
+    flex-flow: column;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container > * {
+    flex: 1 100%;
+}
+
+.header{
+    background: #912441;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 30%;
+    border-bottom: 2px solid black;
+}
+
+.body{
+    background: aquamarine;
+    padding-top: 15%;
+}
+
+
+.infos p{
+    color: white;
+    font-family: Avenir;
+    font-size: 14px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sidebarItem{
+    background-color: azure;
+    font-family: Avenir;
+    border: 2px solid black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    transition-duration:0.4s;
+}
+
+.sidebarItem:hover{
+    background-color: #912441;
+    font-family: Avenir;
+    color: white;
+}
+

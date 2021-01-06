@@ -56,6 +56,10 @@
     transition-duration:0.4s;
 }
 
+.uselesstest {
+
+}
+
 .sidebarItem:hover{
     background-color: #912441;
     font-family: Avenir;

@@ -37,7 +37,7 @@
 }
 
 .infos p {
-    color: white;
+    color: whitesmoke;
     font-size:0.8vw;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .sidebarItemButton{
-    background-color: white;
+    background-color: whitesmoke;
     border: 2px solid black;
     padding: 20px 22px;
     text-align: center;
@@ -69,15 +69,43 @@
 
 .sidebarItemButton:hover{
     background-color: #da5378;
-    color: white;
+    color: whitesmoke;
 }
 
 
 
-/* NEW CODE STARTS HERE*/
+/* END OF HEADER CSS */
+
+.sidebarItemButton-footer {
+    background-color: #b93a5c;
+    padding: 5px 10px;
+    text-align: center;
+    transition-duration:0.4s;
+    border: none;
+}
+
+.sidebarItemButton-footer:hover {
+    background-color: #da5378;
+    color: whitesmoke;
+}
+
+.footer {
+    background: #b93a5c;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid black;
+}
+
+/* END OF FOOTER */
+
+
 
 .contact-info {
-    background: white;
+    background: whitesmoke;
     padding-top: 10%;
     padding-left: 1%;
     font-size: 18px;
@@ -155,7 +183,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color: #4CAF50;
-    color: white;
+    color: whitesmoke;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;

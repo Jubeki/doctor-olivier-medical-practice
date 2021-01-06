@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -9,14 +9,6 @@
     flex-flow: column;
     font-weight: bold;
     text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-.infos p{
-    color: white;
-    font-family: Avenir;
-    font-size: 14px;
 }
 
 .container > * {
@@ -24,22 +16,89 @@
 }
 
 .header{
-    background: #912441;
+    background: #b93a5c;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 22%;
+    height: 15%;
     border-bottom: 2px solid black;
 }
 
 .body{
     background: whitesmoke;
-    padding-top: 10%;
-
+    padding-top: 15%;
 }
+
+.infos {
+    
+}
+
+.infos p {
+    color: white;
+    font-size:0.8vw;
+}
+
+@media only screen and (max-width 1200px) {
+    .infos {
+        display: none !important;
+    }
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.docphoto {
+    border: 2px solid black;
+}
+
+.sidebarItemButton{
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px 22px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    transition-duration:0.4s;
+}
+
+.sidebarItemButton:hover{
+    background-color: #da5378;
+    color: white;
+}
+
+/* END OF HEADER CSS */
+
+.sidebarItemButton-footer {
+    background-color: #b93a5c;
+    padding: 5px 10px;
+    text-align: center;
+    transition-duration:0.4s;
+    border: none;
+}
+
+.sidebarItemButton-footer:hover {
+    background-color: #da5378;
+    color: white;
+}
+
+.footer {
+    background: #b93a5c;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid black;
+}
+
+/* END OF FOOTER */
 
 .blogBody{
     display:flex;
@@ -53,29 +112,6 @@
 .blogEntry{
     color: green;
     width: 50%;
-}
-
-.sidebar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.sidebarItem{
-    background-color: azure;
-    font-family: Avenir;
-    border: 2px solid black;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 12px;
-    transition-duration:0.4s;
-}
-
-.sidebarItem:hover{
-    background-color: #912441;
-    font-family: Avenir;
-    color: white;
 }
 
 .leftcolumn {
@@ -120,7 +156,8 @@
 
 .h2{
     background-color: azure;
-    font-family: Avenir;
+    font: arial;
+    font-weight: 200;
     border: 2px solid black;
     padding: 15px 32px;
     text-align: center;
@@ -131,7 +168,8 @@
 
 .h2:hover{
     background-color: #912441;
-    font-family: Avenir;
+    font: arial;
+    font-weight: 200;
     color: white;
 }
 

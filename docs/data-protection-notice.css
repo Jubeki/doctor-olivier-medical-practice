@@ -108,62 +108,22 @@
     font-weight: 200;
 }
 
-.quote {
-    background: whitesmoke;
-    padding-top: 20%;
-    font-size: 25px;
-    width: 50%;
-    align-self: center;
-    font-family: arial;
-    font-weight: 700;
-    font-size: 30px;
-}
-
-.scrollformore {
-    background: whitesmoke;
-    padding-top: 20%;
-    font-size: 25px;
-    align-self: center;
-    font-family: arial;
-    font-weight: 200;
-}
-
-.teamdes {
-    font-family: arial;
-    font-weight: 200;
-    background: whitesmoke;
-    padding-top: 10%;
-    padding-left: 1%;
-    font-size: 18px;
+.notice {
+    background: white;
+    padding-top: 8%;
+    width: 70%;
     text-align: left;
-    float: left;
-    padding: 1%;
-    width: 40%;
-}
-
-.des-photo {
-    margin: 0 auto;
-    flex-flow: row;
-    padding-top: 10%;
     font-family: arial;
     font-weight: 200;
-    height: 60%;
+    font-size: 20px;
 }
 
-.endofteam {
-    padding-top: 0%;
-}
-
-.askmy-img {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    width: 25%;
-}
-
-img.sticky {
-    position: fixed;
-    padding: 20px;
-    width: 20%;
-    margin: 20px;
+.services2 {
+    background: white;
+    padding-left: 3%;
+    font-size: 20px;
+    text-align: left;
+    font-family: arial;
+    font-weight: 200;
+    width: 50%;
 }

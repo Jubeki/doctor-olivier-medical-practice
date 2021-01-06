@@ -23,7 +23,6 @@
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 15%;
     border-bottom: 2px solid black;
 }
 
@@ -41,8 +40,8 @@
     font-size:0.8vw;
 }
 
-@media only screen and (max-width 1200px) {
-    .infos {
+@media (max-width: 800px) {
+    .infos, .docphoto {
         display: none !important;
     }
 }
@@ -121,7 +120,7 @@
 .covid {
     margin: 0 auto;
     flex-flow: row;
-    padding-top: 7%;
+    margin-top: 5%;
 }
 
 .covid-imgs {

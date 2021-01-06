@@ -24,13 +24,12 @@
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 30%;
     border-bottom: 2px solid black;
 }
 
 .body{
     background: aquamarine;
-    padding-top: 15%;
+    margin-top: 15%;
 }
 
 .infos {
@@ -42,8 +41,8 @@
     font-size:0.8vw;
 }
 
-@media only screen and (max-width 1200px) {
-    .infos {
+@media (max-width: 800px) {
+    .infos, .docphoto {
         display: none !important;
     }
 }

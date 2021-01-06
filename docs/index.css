@@ -45,17 +45,6 @@
     justify-content: space-around;
 }
 
-.sidebarItem{
-    background-color: azure;
-    font-family: Avenir;
-    border: 2px solid black;
-    padding: 20px 22px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 12px;
-    transition-duration:0.4s;
-}
-
 .sidebarItem:hover{
     background-color: #912441;
     font-family: Avenir;

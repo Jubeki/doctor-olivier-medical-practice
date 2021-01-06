@@ -101,7 +101,7 @@
 /* END OF FOOTER */
 
 .covid-info {
-    background: whitesmoke;
+    background: white;
     padding-top: 10%;
     padding-left: 1%;
     font-size: 14px;
@@ -153,6 +153,7 @@ iframe.sticky3 {
 }
 
 .charts {
+    color: white;
     padding: 20px;
     padding-top: 1%;
     flex-direction: row;

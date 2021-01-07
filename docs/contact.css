@@ -17,6 +17,7 @@
 
 .header{
     background: #b93a5c;
+    background: white;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -32,11 +33,12 @@
 }
 
 .infos {
-    
+    margin-top: 1%;
 }
 
 .infos p {
     color: whitesmoke;
+    color: black;
     font-size:0.8vw;
 }
 
@@ -62,8 +64,8 @@
     padding: 20px 22px;
     text-align: center;
     display: inline-block;
-    border-radius: 12px;
     transition-duration:0.4s;
+    margin-right: 4px;
 }
 
 .sidebarItemButton:hover{

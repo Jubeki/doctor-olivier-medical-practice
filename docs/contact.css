@@ -145,6 +145,13 @@ img.sticky {
     margin: 20px;
 }
 
+.a href {
+    position: fixed;
+    padding: 20px;
+    width: 20%;
+    margin: 20px;
+}
+
 table {
     font-family: arial;
     font-weight: 200;
@@ -182,7 +189,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #b93a5c;
     color: whitesmoke;
     padding: 12px 20px;
     border: none;
@@ -191,7 +198,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #a83453;
 }
 
 .form {

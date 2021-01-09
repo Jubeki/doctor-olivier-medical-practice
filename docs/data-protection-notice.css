@@ -15,8 +15,9 @@
     flex: 1 100%;
 }
 
-.header{
+.header {
     background: #b93a5c;
+    background: white;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -26,18 +27,23 @@
     border-bottom: 2px solid black;
 }
 
-.body{
+.body {
     background: aquamarine;
     padding-top: 15%;
 }
 
 .infos {
-    
+    margin-top: 1%;
+    font-family: arial;
+    font-weight: 200;
 }
 
 .infos p {
     color: whitesmoke;
-    font-size:0.8vw;
+    color: black;
+    font-size: 0.8vw;
+    font-family: arial;
+    font-weight: 200;
 }
 
 @media (max-width: 800px) {
@@ -46,7 +52,7 @@
     }
 }
 
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -56,20 +62,22 @@
     border: 2px solid black;
 }
 
-.sidebarItemButton{
+.sidebarItemButton {
     background-color: whitesmoke;
     border: 2px solid black;
     padding: 20px 22px;
     text-align: center;
     display: inline-block;
-    border-radius: 12px;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
+    margin-right: 4px;
 }
 
-.sidebarItemButton:hover{
+.sidebarItemButton:hover {
     background-color: #da5378;
     color: whitesmoke;
 }
+
+
 
 /* END OF HEADER CSS */
 
@@ -77,14 +85,14 @@
     background-color: #b93a5c;
     padding: 5px 10px;
     text-align: center;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
     border: none;
 }
 
-.sidebarItemButton-footer:hover {
-    background-color: #da5378;
-    color: whitesmoke;
-}
+    .sidebarItemButton-footer:hover {
+        background-color: #da5378;
+        color: whitesmoke;
+    }
 
 .footer {
     background: #b93a5c;
@@ -101,26 +109,27 @@
 
 
 .body{
-    background: whitesmoke;
-    padding-top: 25%;
+    background-color: whitesmoke;
     font-family: arial;
     font-weight: 200;
 }
 
 .notice {
     background: white;
-    margin-top: 8%;
-    width: 70%;
+    margin-top: 7%;
+    background-color: whitesmoke;
+    width: 100%;
     text-align: left;
     font-family: arial;
     font-weight: 200;
     font-size: 20px;
-    margin-left: 1%;
+    padding-left: 1%;
 }
 
 .services2 {
     background: white;
     padding-left: 3%;
+    background-color: whitesmoke;
     font-size: 20px;
     text-align: left;
     font-family: arial;

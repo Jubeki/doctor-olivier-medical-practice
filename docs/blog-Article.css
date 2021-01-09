@@ -9,11 +9,9 @@
     flex-flow: column;
     font-weight: bold;
     text-align: center;
+    height:100%;
 }
 
-    .container > * {
-        flex: 1 100%;
-    }
 
 .header {
     background: #b93a5c;
@@ -29,9 +27,12 @@
 
 .body {
     background: whitesmoke;
-        margin: 0 auto;
+   
     flex-flow: row;
-    margin-top: 7%;
+    padding-top: 10%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    
     font-family: arial;
     font-weight: 200;
     height: 70%;
@@ -105,118 +106,7 @@
     width: 100%;
     height: 40px;
     border-top: 2px solid black;
-}
-
-/* END OF FOOTER */
-
-.row{
-    display: flex;
-    flex-flow: row;
-}
-.leftcolumn {
-    float: left;
-    width: 70%%;
-    padding: 40px;
-}
-
-/* Right column */
-.rightcolumn {
-    display: flex;
-    flex-flow: column;
-    float: center;
-    width: 30%;
-    border-left: 2px solid black;
-    padding-left: 3vw;
-    padding-right: 3vw;
-}
-
-.aboutMe{
-
-
-}
-.rightCard{
-    display: flex;
-    flex-flow: column;
-    padding-bottom: 2vw;
-
-}
-
-.popularPostButton {
-    display: inline-block;
-    padding: 1vw 1vw;
-}
-
-.text{
-    text-align: center;
     
 }
 
-.article {
-    font-family: Arial;
-    margin-left: 5vw;
-}
-
-.artButton {
-    background-color: white;
-    color: black;
-    border: 2px solid #da5378;
-}
-
-/* Add a card effect for articles */
-.card {
-    display: flex;
-    flex-flow: row;
-    padding-bottom: 2vw;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.h2 {
-    background-color: azure;
-    font-family: Avenir;
-    border: 2px solid black;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 12px;
-    transition-duration: 0.4s;
-}
-
-    .h2:hover {
-        background-color: #912441;
-        font-family: Avenir;
-        color: white;
-    }
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
+/* END OF FOOTER */

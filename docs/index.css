@@ -11,9 +11,9 @@
     text-align: center;
 }
 
-    .container > * {
-        flex: 1 100%;
-    }
+.container > * {
+    flex: 1 100%;
+}
 
 .header {
     background: #b93a5c;
@@ -29,23 +29,22 @@
 
 .body {
     background: whitesmoke;
-    margin: 0 auto;
-    flex-flow: row;
-    margin-top: 7%;
-    font-family: arial;
-    font-weight: 200;
-    height: 70%;
+    margin-top: 10%;
 }
 
 .infos {
     margin-top: 1%;
+    font-family: arial;
+    font-weight: 200;
 }
 
-    .infos p {
-        color: whitesmoke;
-        color: black;
-        font-size: 0.8vw;
-    }
+.infos p {
+    color: whitesmoke;
+    color: black;
+    font-size: 0.8vw;
+    font-family: arial;
+    font-weight: 200;
+}
 
 @media (max-width: 800px) {
     .infos, .docphoto {
@@ -66,19 +65,19 @@
 .sidebarItemButton {
     background-color: whitesmoke;
     border: 2px solid black;
-    padding: 20px 22px;
+    padding: 30px 32px;
     text-align: center;
     display: inline-block;
     transition-duration: 0.4s;
+    font-size: 16px;
+    font-weight: 400;
     margin-right: 4px;
 }
 
-    .sidebarItemButton:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
-
-
+.sidebarItemButton:hover {
+    background-color: #da5378;
+    color: whitesmoke;
+}
 
 /* END OF HEADER CSS */
 
@@ -90,10 +89,10 @@
     border: none;
 }
 
-    .sidebarItemButton-footer:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.sidebarItemButton-footer:hover {
+    background-color: #da5378;
+    color: whitesmoke;
+}
 
 .footer {
     background: #b93a5c;

@@ -34,13 +34,17 @@
 
 .infos {
     margin-top: 1%;
+    font-family: arial;
+    font-weight: 200;
 }
 
-    .infos p {
-        color: whitesmoke;
-        color: black;
-        font-size: 0.8vw;
-    }
+.infos p {
+    color: whitesmoke;
+    color: black;
+    font-size: 0.8vw;
+    font-family: arial;
+    font-weight: 200;
+}
 
 @media (max-width: 800px) {
     .infos, .docphoto {
@@ -106,15 +110,16 @@
 
 .allservices {
     margin: 0 auto;
+    background-color: whitesmoke;
     flex-flow: row;
-    margin-top: 8%;
+    margin-top: 7%;
     font-family: arial;
     font-weight: 200;
     height: 85%;
 }
 
 .services-text {
-    background: white;
+    background-color: whitesmoke;
     padding-left: 1%;
     font-size: 18px;
     text-align: left;
@@ -124,7 +129,7 @@
 }
 
 .services {
-    background: white;
+    background-color: whitesmoke;
     padding-left: 1%;
     font-size: 18px;
     text-align: left;
@@ -137,6 +142,7 @@
     background: white;
     padding-top: 0%;
     padding-left: 3%;
+    background-color: whitesmoke;
     font-size: 16px;
     text-align: left;
     font-family: arial;
@@ -153,9 +159,11 @@
     font-family: arial;
     font-weight: 200;
     width: 50%;
+    background-color: whitesmoke;
 }
 
 .askmy-img {
     display: flex;
+    background-color: whitesmoke;
     flex-direction: column;
 }

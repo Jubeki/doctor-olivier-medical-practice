@@ -34,11 +34,15 @@
 
 .infos {
     margin-top: 1%;
+    font-family: arial;
+    font-weight: 200;
 }
 
 .infos p {
     color: whitesmoke;
     color: black;
+    font-family: arial;
+    font-weight: 200;
     font-size:0.8vw;
 }
 
@@ -107,6 +111,7 @@
 
 .contact-info {
     background: whitesmoke;
+    background-color: whitesmoke;
     padding-left: 1%;
     font-size: 18px;
     text-align: left;
@@ -116,6 +121,7 @@
 }
 
 .contact {
+    background-color: whitesmoke;
     margin: 0 auto;
     flex-flow: row;
     margin-top: 7%;
@@ -155,6 +161,7 @@ img.sticky {
 table {
     font-family: arial;
     font-weight: 200;
+    background-color: whitesmoke;
     border-collapse: collapse;
     width: 100%;
 }
@@ -205,5 +212,6 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    background-color: whitesmoke;
     padding-top: 2%;
 }

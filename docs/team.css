@@ -28,7 +28,7 @@
 }
 
 .body {
-    background: whitesmoke;
+    background-color: whitesmoke;
     margin: 0 auto;
     flex-flow: row;
     margin-top: 7%;
@@ -39,13 +39,17 @@
 
 .infos {
     margin-top: 1%;
+    font-family: arial;
+    font-weight: 200;
 }
 
-    .infos p {
-        color: whitesmoke;
-        color: black;
-        font-size: 0.8vw;
-    }
+.infos p {
+    color: whitesmoke;
+    color: black;
+    font-family: arial;
+    font-weight: 200;
+    font-size: 0.8vw;
+}
 
 @media (max-width: 800px) {
     .infos, .docphoto {
@@ -108,17 +112,17 @@
 
 
 .body{
-    background: whitesmoke;
+    background-color: whitesmoke;
     padding-top: 25%;
     font-family: arial;
     font-weight: 200;
 }
 
 .quote {
-    background: white;
-    margin-top: 20%;
+    background-color: whitesmoke;
+    margin-top: 7%;
     font-size: 25px;
-    width: 50%;
+    width: 100%;
     align-self: center;
     font-family: arial;
     font-weight: 700;
@@ -126,7 +130,7 @@
 }
 
 .scrollformore {
-    background: white;
+    background-color: whitesmoke;
     margin-top: 20%;
     font-size: 25px;
     align-self: center;
@@ -137,7 +141,7 @@
 .teamdes {
     font-family: arial;
     font-weight: 200;
-    background: whitesmoke;
+    background-color: whitesmoke;
     padding-top: 10%;
     padding-left: 1%;
     font-size: 18px;
@@ -152,17 +156,15 @@
     flex-flow: row;
     padding-top: 10%;
     font-family: arial;
+    background-color: whitesmoke;
     font-weight: 200;
     height: 60%;
-}
-
-.endofteam {
-    padding-top: 0%;
 }
 
 .askmy-img {
     display: flex;
     flex-direction: column;
+    background-color: whitesmoke;
     margin: 20px;
     width: 25%;
 }
@@ -172,4 +174,8 @@ img.sticky {
     padding: 20px;
     width: 20%;
     margin: 20px;
+}
+
+.whitesmoteback {
+    background-color: whitesmoke;
 }

@@ -11,12 +11,13 @@
     text-align: center;
 }
 
-.container > * {
-    flex: 1 100%;
-}
+    .container > * {
+        flex: 1 100%;
+    }
 
-.header{
+.header {
     background: #b93a5c;
+    background: white;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -26,18 +27,23 @@
     border-bottom: 2px solid black;
 }
 
-.body{
+.body {
     background: aquamarine;
     padding-top: 15%;
 }
 
 .infos {
-    
+    margin-top: 1%;
+    font-family: arial;
+    font-weight: 200;
 }
 
 .infos p {
     color: whitesmoke;
-    font-size:0.8vw;
+    color: black;
+    font-size: 0.8vw;
+    font-family: arial;
+    font-weight: 200;
 }
 
 @media (max-width: 800px) {
@@ -46,7 +52,7 @@
     }
 }
 
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -56,20 +62,22 @@
     border: 2px solid black;
 }
 
-.sidebarItemButton{
+.sidebarItemButton {
     background-color: whitesmoke;
     border: 2px solid black;
     padding: 20px 22px;
     text-align: center;
     display: inline-block;
-    border-radius: 12px;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
+    margin-right: 4px;
 }
 
-.sidebarItemButton:hover{
+.sidebarItemButton:hover {
     background-color: #da5378;
     color: whitesmoke;
 }
+
+
 
 /* END OF HEADER CSS */
 
@@ -77,14 +85,14 @@
     background-color: #b93a5c;
     padding: 5px 10px;
     text-align: center;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
     border: none;
 }
 
-.sidebarItemButton-footer:hover {
-    background-color: #da5378;
-    color: whitesmoke;
-}
+    .sidebarItemButton-footer:hover {
+        background-color: #da5378;
+        color: whitesmoke;
+    }
 
 .footer {
     background: #b93a5c;
@@ -100,7 +108,7 @@
 /* END OF FOOTER */
 
 .covid-info {
-    background: white;
+    background-color: whitesmoke;
     padding-top: 10%;
     padding-left: 1%;
     font-size: 14px;
@@ -114,6 +122,7 @@
 
 .covid-info.p.b {
     font-family: 'Arial';
+    background-color: whitesmoke;
     font-weight: 700;
 }
 
@@ -121,12 +130,14 @@
     margin: 0 auto;
     flex-flow: row;
     margin-top: 5%;
+    background-color: whitesmoke;
 }
 
 .covid-imgs {
     display: flex;
     flex-direction: column;
-    margin: 1%;
+    margin-top: 4%;
+    background-color: whitesmoke;
 }
 
 img.sticky {
@@ -153,14 +164,8 @@ iframe.sticky3 {
 
 .charts {
     color: white;
+    background-color: whitesmoke;
     padding: 20px;
     padding-top: 1%;
     flex-direction: row;
-}
-
-
-.container:before, .container:after {
-    content: " ";
-    display: table;
-    clear: both;
 }

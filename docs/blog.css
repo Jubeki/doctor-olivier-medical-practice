@@ -40,13 +40,17 @@
 
 .infos {
     margin-top: 1%;
+    font-family: arial;
+    font-weight: 200;
 }
 
-    .infos p {
-        color: whitesmoke;
-        color: black;
-        font-size: 0.8vw;
-    }
+.infos p {
+    color: whitesmoke;
+    color: black;
+    font-size: 0.8vw;
+    font-family: arial;
+    font-weight: 200;
+}
 
 @media (max-width: 800px) {
     .infos, .docphoto {

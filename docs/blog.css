@@ -123,6 +123,17 @@
     padding: 40px;
 }
 
+.img{
+    align-self: center;
+    width: 20%;
+}
+
+.article{
+    align-elf: center;
+    width: 60%;
+    margin-left: 10%;
+
+}
 /* Right column */
 .rightcolumn {
     display: flex;
@@ -134,10 +145,6 @@
     padding-right: 3vw;
 }
 
-.aboutMe{
-
-
-}
 .rightCard{
     display: flex;
     flex-flow: column;
@@ -155,10 +162,6 @@
     
 }
 
-.article {
-    font-family: Arial;
-    margin-left: 5vw;
-}
 
 .artButton {
     background-color: white;

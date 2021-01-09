@@ -1,12 +1,13 @@
 # Devision of Work
 
 Alexander Mueller  
-- index, blog, prescriptions, appointment-booking pages (more complex ones)  
+- index, blog, appointment-booking pages (more complex ones)  
 - header prototype  
+- use of xml and dtd files  
 
 
 Carlo Bueckert  
-- contact, corona, data-protection-notice, services, team pages (simpler ones)  
+- contact, corona, data-protection-notice, services, team, prescriptions pages (simpler ones)  
 - footer  
 - refine header  
 - adaptive design to accomodate scaling and smaller screens  

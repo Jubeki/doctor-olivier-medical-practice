@@ -136,15 +136,15 @@
     display: flex;
     flex-flow: row;
 }
-.leftcolumn {
-    float: left;
-    width: 70%%;
-    padding: 40px;
-}
 
-.img{
+.img {
     align-self: center;
     width: 20%;
+    
+}
+
+.imgBorder {
+    border: 2px solid black;
 }
 
 .article{
@@ -153,6 +153,13 @@
     margin-left: 10%;
 
 }
+
+.leftcolumn {
+    float: left;
+    width: 80%;
+    padding: 40px;
+}
+
 /* Right column */
 .rightcolumn {
     display: flex;
@@ -186,6 +193,10 @@
     background-color: white;
     color: black;
     border: 2px solid #da5378;
+}
+
+.aboutMe{
+    margin-bottom: 2vw;
 }
 
 /* Add a card effect for articles */
@@ -246,3 +257,18 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+.readMore {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    margin-right: 4px;
+}
+
+    .readMore:hover {
+        background-color: #da5378;
+        color: whitesmoke;
+    }

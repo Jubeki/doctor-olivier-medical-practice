@@ -1,117 +1,190 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Make an Appointment</title>
-        <link rel="stylesheet" type="text/css" href="appointment-booking.css"/>
-    </head>
-    
-    <body>
+<head>
+    <meta charset="utf-8" />
+    <title>Make an Appointment</title>
+    <link rel="stylesheet" type="text/css" href="appointment-booking.css" />
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        var initialText = $('.editable').val();
+        $('.editOption').val(initialText);
+
+        $('#test').change(function(){
+        var selected = $('option:selected', this).attr('class');
+        var optionText = $('.editable').text();
+
+        if(selected == "editable"){
+        $('.editOption').show();
+
+
+        $('.editOption').keyup(function(){
+        var editText = $('.editOption').val();
+        $('.editable').val(editText);
+        $('.editable').html(editText);
+        });
+
+        }else{
+        $('.editOption').hide();
+        }
+        });
+    </script>
+        -->
+</head>
+
+        <body>
         <div class="container">
-            <header>
-                <div class="header">
-                    <div class="svg">
-                        <img src="images/logo.png" style="height: 5vw;" alt="logoindex"/>
-                    </div>
-                    <div class="sidebar">
-                        <a href="index.html"><button class="sidebarItemButton">Home</button></a>
-                        <a href="team.html"><button class="sidebarItemButton">Our Team</button></a>
-                        <a href="services.html"><button class="sidebarItemButton">Our Service</button></a>
-                        <a href="blog.html"><button class="sidebarItemButton">Blog</button></a>
-                        <a href="contact.html"><button class="sidebarItemButton">Contact Us</button></a>
-                        
-                        
-                    </div>
-                    <div class="infos">
-                        <p>                            
-                            Opening hours:<br>
-                            Mo: 07:00-10:00 AM<br>
-                            Tu/Th: 07:00-10:00 AM & 01:00-05:00 PM<br>
-                            We: appointments given by doctor only<br>
-                            Fr: 07:00-10:00 AM<br>
-                            Closed on weekends!<br><br>
-                        </p>
-                        
-                    </div>
-                    <div class="docphoto">
-                        <img src="images/doctor-olivier.jpg" style="height: 5vw;" alt="logoindex"/>
-                    </div>
-                </div>
-            </header>
-            
-            <div class = "contact">
-            
-                <div class = "contact-info">
-                    
-                    <p style="color: #6A737D">
-                        <br />
-                        If you'd like to make an appointment, please consider the usage of AskMyGP, a free app 
-                        that allows you to book appointments easily and contact Dr. Olivier from the comfort of 
-                        your own home by video. Booking an appointment through the app will make it easier for us to 
-                        process your appointment. If however you are unable to use AskMyGP for whatever reason, you may also use the form below:
-                    </p>
-                    
-                    <div class="form">
-                        <form action="/action_page.php">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" placeholder="Your name.." />
+        <header>
+        <div class="header">
+        <div class="svg">
+        <img src="images/logo.png" style="height: 5vw;" alt="logoindex"/>
+        </div>
+        <div class="sidebar">
+        <a href="index.html"><button class="sidebarItemButton">Home</button></a>
+        <a href="team.html"><button class="sidebarItemButton">Our Team</button></a>
+        <a href="services.html"><button class="sidebarItemButton">Our Service</button></a>
+        <a href="blog.html"><button class="sidebarItemButton">Blog</button></a>
+        <a href="contact.html"><button class="sidebarItemButton">Contact Us</button></a>
 
-                            <label for="birth date">Birth date</label>
-                            <input type="text" id="birth date" name="birth date" placeholder="Your Birth date.." />
-
-                            <label for="email">E-Mail</label>
-                            <input type="text" id="email" name="email" placeholder="Your e-mail adress.." />
-
-                            <label for="phone">Phone (optional)</label>
-                            <input type="text" id="phone" name="phone" placeholder="Your phone number.." />
-
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="The subject of your message.." />
-
-                            <!--
-    <label for="country">Country</label>
-    <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-    </select>
-    -->
-
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Write something.." style="height:15vw"></textarea>
-
-                            <input type="submit" value="Submit" />
-                        </form>
-                    </div>
-                    
-                </div>
-                
-                
-                
-                <div class = "askmy-img">
-                    
-                    <a href="https://my.askmygp.uk/?c=S71379" target="_blank">
-                        <img class="sticky" src="images/askmygp-contact.png" alt="askmygp">
-                    </a>
-                    
-                </div>
-                
-            </div>
-            
-            <footer class="footer">
-                <div class="sidebar">
-                    <a><button class="sidebarItemButton-footer2">&copy; 2021 jubeki</button></a>
-                    <a href="data-protection-notice.html"><button class="sidebarItemButton-footer">Data Protection Notice</button></a>
-                    <a href="contact.html"><button class="sidebarItemButton-footer">Contact</button></a>
-                </div>
-            </footer>
 
         </div>
+        <div class="infos">
+        <p>
+        Opening hours:<br>
+        Mo: 07:00-10:00 AM<br>
+        Tu/Th: 07:00-10:00 AM & 01:00-05:00 PM<br>
+        We: appointments given by doctor only<br>
+        Fr: 07:00-10:00 AM<br>
+        Closed on weekends!<br><br>
+        </p>
+
+        </div>
+        <div class="docphoto">
+        <img src="images/doctor-olivier.jpg" style="height: 5vw;" alt="logoindex"/>
+        </div>
+        </div>
+        </header>
+
+        <div class = "contact">
+
+        <div class="contact-info">
+
+        <br />
+        <p style="color: #6A737D">
+        <br />
+        If you'd like to make an appointment, please consider the usage of AskMyGP, a free app
+        that allows you to book appointments easily and contact Dr. Olivier from the comfort of
+        your own home by video. Booking an appointment through the app will make it easier for us to
+        process your appointment. If however you are unable to use AskMyGP for whatever reason, you may also use the form below:
+        </p>
+
+        <div class="form">
+            <form action="/action_page.php">
+
+
+                <label for="name">Name</label>
+                <input type="text" class="name" id="nameID" name="name" placeholder="Your name.." />
+
+                <label for="birthday">Birthdate</label><br />
+                <input type="date" id="birthdayID" name="birthday" />
+                <br /><br />
+
+                <label for="policy">Policy Number</label>
+                <input type="text" id="policyID" name="policy" placeholder="Your policy number.." />
+
+                <label for="appType">Appointment Type:</label>
+                <select id="appType" name="appType">
+                    <option value="appType">House Call</option>
+                    <option value="appType">AskMyGP</option>
+                    <option value="appType">Practice Visit</option>
+                </select>
+                <br />
+                <label for="appReason">Appointment Reason:</label>
+                <select onchange="yesnoCheck(this);" name="appReason">
+                    <option class="non" value="Sickness/General Health Examination">Sickness/General Health Examination</option>
+                    <option class="non" value="Routine Checkup">Routine Checkup</option>
+                    <option class="non" value="Cancer screening Examination">Cancer screening Examination</option>
+                    <option class="non" value="Psychosomatic care">Psychosomatic care</option>
+                    <option class="non" value="Vaccination advice">Vaccination advice</option>
+                    <option class="editable" value="Vaccination">Vaccination</option>
+                    <option class="non" value="Nutritional advice">Nutritional advice</option>
+                    <option class="editable" value="Other">Other</option>
+                </select>
+                <input type="text" id="Vaccination" name="Vaccination" placeholder="Please indicate what you want to be vaccinated for.." style="display:none;" />
+                <textarea id="Other" name="Other" placeholder="Please try to describe your concern.." style="height:15vw; display:none;"></textarea>
+
+                <button class="popup" onclick="myFunction()">
+                    Make an Appointment
+                    <a href="../xml/appointments.xml"><span class="popuptext" id="myPopup">Click me to see available Appointments</span></a>
+                    <span class="popuptext" id="elsePopup">Please make sure that you have filled out everything </span>
+                </button>
+
+                <script>
+                    function myFunction() {
+                    if ((policyID.value !== "")&&(nameID.value !== "")&&(birthdayID.value !== "")) {
+                      var popup = document.getElementById("myPopup");
+                      popup.classList.toggle("show");
+                    } else {
+                      var popup = document.getElementById("elsePopup");
+                      popup.classList.toggle("show");
+                    }
+                    }
+
+                    function yesnoCheck(that) {
+                    if (that.value == "Vaccination") {
+                    document.getElementById("Other").style.display = "none";
+                    document.getElementById("Other").value = "" ;
+                    document.getElementById("Vaccination").style.display = "block";
+                    } else if (that.value == "Other"){
+                    document.getElementById("Vaccination").style.display = "none";
+                    document.getElementById("Vaccination").value = "" ;
+                    document.getElementById("Other").style.display = "block";
+                    } else {
+                    document.getElementById("Vaccination").style.display = "none";
+                    document.getElementById("Vaccination").value = "" ;
+                    document.getElementById("Other").style.display = "none";
+                    document.getElementById("Other").value = "" ;
+                    }
+                    }
+
+
+
+                </script>
+
+                <br />
+
+            </form>
+
+    </div>
+
+    </div>
+
+
+
+    <div class="askmy-img">
+
+        <a href="https://my.askmygp.uk/?c=S71379" target="_blank">
+            <img class="sticky" src="images/askmygp-contact.png" alt="askmygp" />
+        </a>
+
+    </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="sidebar">
+            <a><button class="sidebarItemButton-footer2">&copy; 2021 jubeki</button></a>
+            <a href="data-protection-notice.html"><button class="sidebarItemButton-footer">Data Protection Notice</button></a>
+            <a href="contact.html"><button class="sidebarItemButton-footer">Contact</button></a>
+        </div>
+    </footer>
+
+    </div>
     </body>
-    
-    
-    
-    
-    
-</html>
+
+
+
+
+
+</head></html>

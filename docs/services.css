@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 800px) {
-    .infos, .docphoto {
+    .infos, .docphoto, .askmy-img {
         display: none !important;
     }
 }
@@ -111,6 +111,18 @@
     height: 2.5rem;
 }
 
+.sidebarItemButton-footer2 {
+    background-color: #b93a5c;
+    padding: 5px 10px;
+    text-align: center;
+    transition-duration:0.4s;
+    border: none;
+}
+
+.sidebarItemButton-footer2:hover {
+    color: whitesmoke;
+}
+
 /* END OF FOOTER */
 
 
@@ -142,7 +154,7 @@
     text-align: left;
     font-family: arial;
     font-weight: 200;
-    width: 50%;
+    width: 100%;
 }
 
 .services2 {
@@ -154,7 +166,7 @@
     text-align: left;
     font-family: arial;
     font-weight: 200;
-    width: 50%;
+    width: 100%;
 }
 
 .services3 {
@@ -165,7 +177,7 @@
     text-align: left;
     font-family: arial;
     font-weight: 200;
-    width: 50%;
+    width: 100%;
     background-color: whitesmoke;
 }
 
@@ -173,6 +185,7 @@
     display: flex;
     background-color: whitesmoke;
     flex-direction: column;
+    margin-top: 10vh;
 }
 
 .page-container {

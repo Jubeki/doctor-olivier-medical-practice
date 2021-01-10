@@ -96,6 +96,18 @@
     color: whitesmoke;
 }
 
+.sidebarItemButton-footer2 {
+    background-color: #b93a5c;
+    padding: 5px 10px;
+    text-align: center;
+    transition-duration:0.4s;
+    border: none;
+}
+
+.sidebarItemButton-footer2:hover {
+    color: whitesmoke;
+}
+
 .footer {
     background: #b93a5c;
     display: flex;
@@ -174,6 +186,7 @@ table {
 
 th {
     border: 1px solid #dddddd;
+    background-color: #da5378;
     text-align: center;
     padding: 8px;
 }

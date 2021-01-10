@@ -115,6 +115,18 @@
     height: 2.5rem;
 }
 
+.sidebarItemButton-footer2 {
+    background-color: #b93a5c;
+    padding: 5px 10px;
+    text-align: center;
+    transition-duration:0.4s;
+    border: none;
+}
+
+.sidebarItemButton-footer2:hover {
+    color: whitesmoke;
+}
+
 /* END OF FOOTER */
 
 

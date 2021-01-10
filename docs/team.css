@@ -116,6 +116,17 @@
     
 }
 
+.sidebarItemButton-footer2 {
+    background-color: #b93a5c;
+    padding: 5px 10px;
+    text-align: center;
+    transition-duration:0.4s;
+    border: none;
+}
+
+.sidebarItemButton-footer2:hover {
+    color: whitesmoke;
+}
 
 .body{
     background-color: whitesmoke;
@@ -137,34 +148,54 @@
 
 .scrollformore {
     background-color: whitesmoke;
-    margin-top: 22%;
+    margin-top: 30vh;
     font-size: 25px;
     align-self: center;
     font-family: arial;
     font-weight: 200;
+    padding-bottom: 20vh;
 }
 
 .teamdes {
     font-family: arial;
     font-weight: 200;
     background-color: whitesmoke;
-    padding-top: 10%;
     padding-left: 1%;
     font-size: 18px;
     text-align: left;
     float: left;
-    padding: 1%;
     width: 40%;
 }
 
 .des-photo {
     margin: 0 auto;
     flex-flow: row;
-    padding-top: 10%;
+    padding-top: 2%;
     font-family: arial;
     background-color: whitesmoke;
     font-weight: 200;
     height: 60%;
+}
+
+.teamdes2 {
+    font-family: arial;
+    font-weight: 200;
+    background-color: white;
+    font-size: 18px;
+    text-align: right;
+    float: right;
+    margin-right: 2vw;
+    width: 40%;
+}
+
+.des-photo2 {
+    flex-flow: row;
+    padding-left: 1%;
+    font-family: arial;
+    background-color: white;
+    font-weight: 200;
+    height: 60%;
+    align-self: left;
 }
 
 .askmy-img {
@@ -184,7 +215,7 @@ img.sticky {
 
 .whitesmoteback {
     background-color: whitesmoke;
-    padding-bottom: 2.5rem;
+    padding-bottom: 5rem;
 }
 
 .page-container {

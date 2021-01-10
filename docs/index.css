@@ -53,6 +53,10 @@
     .infos, .docphoto {
         display: none !important;
     }
+    .hidedoc {
+        border-top: 5vh solid white;
+        margin-top: 5vh;
+    }
 }
 
 .sidebar {
@@ -123,4 +127,97 @@
 
 .sidebarItemButton-footer2:hover {
     color: whitesmoke;
+}
+
+.doc-text-photo {
+    background-color: whitesmoke;
+    flex-flow: row;
+    font-family: arial;
+    font-weight: 200;
+    margin-top: 30vh;
+}
+
+.doc-text {
+    background: whitesmoke;
+    background-color: whitesmoke;
+    margin-left: 20vw;
+    font-size: 18px;
+    text-align: left;
+    float: left;
+    font-family: arial;
+    font-weight: 200;
+}
+
+.learnmore {
+    background-color: white;
+    border: 2px solid black;
+    /*padding: 25px 27px;*/
+    height: 4vh;
+    width: 18vw;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 4px;
+}
+
+.learnmore:hover {
+    background-color: #da5378;
+    color: whitesmoke;
+}
+
+.learnmore2 {
+    background-color: white;
+    border: 2px solid black;
+    /*padding: 25px 27px;*/
+    height: 4vh;
+    width: 14vw;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.4s;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 4px;
+}
+
+.learnmore2:hover {
+    background-color: #da5378;
+    color: whitesmoke;
+}
+
+.someinfo {
+    background-color: white;
+    border-top: 5vh solid white;
+    border-bottom: 5vh solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+    font-family: arial;
+    font-weight: 200;
+}
+
+.oneinfo {
+    background-color: white;
+    margin: 0 auto;
+    flex-flow: column;
+    font-family: arial;
+    font-weight: 200;
+    text-align: left;
+    width: 14vw;
+    align-content: flex-start;
+}
+
+.line {
+    width: 15px;
+    background-color: red;
+    height: 3px;
+}
+
+.headerinfo {
+    font-family: arial;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
 }

@@ -3,8 +3,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Contact Us</title>
-        <link rel="stylesheet" type="text/css" href="contact.css"/>
+        <title>Re-order Prescriptions</title>
+        <link rel="stylesheet" type="text/css" href="reorder-prescriptions.css"/>
     </head>
     
     <body>
@@ -45,76 +45,40 @@
                 <div class = "contact-info">
                     <p>
                         <br><br>
-                        <b>Address:</b> Ross Gardens 43, Edinburgh, EH9 3BP<br>
+                        Prescriptions for ongoing medications may be requested online via AskMyGP. Please allow a minimum of 2 working days before collection. If you are making your request outwith surgery hours, please note that this will not be received until the next working day.<br><br>
                         
-                        <b>Email:</b> <a style="color: #b93a5c;" href = "mailto:team@doctor-olivier.uk">team@doctor-olivier.uk</a><br>
+                        If you have run out of your repeat medications, and have not already put in a repeat request, you must attend to see the Doctor.<br><br>
                         
-                        <b>Phone:</b> +44 131 229 0000<br><br>
+                        Repeat medication will not be issued by a GP making house calls or during a surgery based consultation (unless you are specifically attending for repeat medication and have completely run out).<br><br>
                         
-                        <table>
-                            <tr>
-                                <th>Weekday</th>
-                                <th>Opening Time</th>
-                            </tr>
-                            <tr>
-                                <td>Monday</td>
-                                <td>07:00 - 10:00 AM</td>
-                            </tr>
-                            <tr>
-                                <td>Tuesday</td>
-                                <td>07:00 - 10:00 AM & 01:00 - 05:00 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Wednesday</td>
-                                <td>appointments given by doctor only</td>
-                            </tr>
-                            <tr>
-                                <td>Thursday</td>
-                                <td>07:00 - 10:00 AM & 01:00 - 05:00 PM</td>
-                            </tr>
-                            <tr>
-                                <td>Friday</td>
-                                <td>07:00 - 10:00 AM</td>
-                            </tr>
-                            <tr>
-                                <td>Saturday / Sunday</td>
-                                <td>closed</td>
-                            </tr>
-                            <tr>
-                                <td>We are also open for you if you have an appointment with us.</td>
-                                <td> </td>
-                            </tr>
-                        </table>
-                        <br><br>
-                        According to these opening hours you may <a style="color: #da5378" href="appointment-booking.html">make an appointment</a> online.
-                        <br><br>
-                        You may already had an appointment with us and received a prescription.<br>
-                        If that is the case you can simply <a style="color: #da5378" href="reorder-prescriptions.html">reorder prescriptions</a> online.
-                        <br><br>
-                        
-                        Outside of the office hours NHS 24 ( Tel 111 ) can be reached for emergencies!<br>
-                        
-                        <b style="font-size: 25px;">IF YOUR CONDITION IS LIFE THREATENING, please dial 999!</b><br><br>
-                        
-                        In addition, Dr. Olivier can also be contacted using the AskmyGP appointment booking system. This service is available to all our patients, 24 hours a day. AskmyGP is simple and straightforward. <b>We are encouraging everyone who has access to a computer, smart phone or tablet to use AskMyGP!</b><br><br>
-                        
-                        <b style="font-size: 20px;">If you want to contact us directly please fill out the form below.</b><br><br>
+                        If the usage of AskMyGP is not an option for you, <b>you may also order your prescriptions here</b>. Note that this process may take longer before you are able to collect your prescription (up to 8 business days).<br><br>
                             
                     </p>
+                    
+                    <!--
+                    
+                    Name
+                    Birthdate
+                    Policy Number
+                    E-Mail (optional, for further inquiry)
+                    Ordered Prescriptions Upon submission, a confirmation should appear telling the patient that the order has been received successfully (it will require us to manually review it after submission, and if an E-Mail was given we'll notify them about when the prescriptions can be picked-up, or ask further questions if e.g. an unknown prescription is ordered)
+                    
+                    -->
                     
                     <div class="form">
                         <form action="/action_page.php">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" placeholder="Your name..">
                             
-                            <label for="email">E-Mail</label>
+                            <label for="birthday">Birthdate</label><br>
+                            <input type="date" id="birthday" name="birthday">
+                            <br><br>
+                            
+                            <label for="policy">Policy Number</label>
+                            <input type="text" id="policy" name="policy" placeholder="Your policy number..">
+                            
+                            <label for="email">E-Mail (optional, for further inquiry)</label>
                             <input type="text" id="email" name="email" placeholder="Your e-mail adress..">
-                            
-                            <label for="phone">Phone (optional)</label>
-                            <input type="text" id="phone" name="phone" placeholder="Your phone number..">
-                            
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="The subject of your message..">
                             
                             <!--
                             <label for="country">Country</label>
@@ -125,10 +89,17 @@
                             </select>
                             -->
                             
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Write something.." style="height:15vw"></textarea>
+                            <label for="prescriptions">Ordered Prescriptions</label>
+                            <textarea id="message" name="prescriptions" placeholder="Write down your prescriptions.." style="height:15vw"></textarea>
                             
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="Submit" onclick="myFunction()">
+                            
+                            <script>
+                                function myFunction() {
+                                    alert("the order has been received successfully ");
+                                }
+                            </script>
+                            
                         </form>
                     </div>
                     
@@ -156,6 +127,9 @@
 
         </div>
     </body>
+    
+    
+    
     
     
 </html>

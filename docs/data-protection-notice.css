@@ -9,6 +9,8 @@
     flex-flow: column;
     font-weight: bold;
     text-align: center;
+    position: relative;
+    min-height: 100vh;
 }
 
 .container > * {
@@ -103,6 +105,9 @@
     width: 100%;
     height: 40px;
     border-top: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
 }
 
 /* END OF FOOTER */
@@ -124,6 +129,7 @@
     font-weight: 200;
     font-size: 20px;
     padding-left: 1%;
+    padding-bottom: 2.5rem;
 }
 
 .services2 {

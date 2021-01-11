@@ -28,16 +28,13 @@
 
 .body {
     background: whitesmoke;
-  
     flex-flow: column;
     padding-top: 10%;
     padding-left: 5vw;
     padding-right: 5vw;
-    
     font-family: arial;
     font-weight: 200;
     height: 100%;
-
 }
 
 .ul{

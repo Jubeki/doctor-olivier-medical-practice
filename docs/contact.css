@@ -92,8 +92,13 @@
     background-color: #b93a5c;
     padding: 5px 10px;
     text-align: center;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
     border: none;
+    font-family: arial;
+    font-size: 0.8vw;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
 }
 
 .sidebarItemButton-footer:hover {
@@ -105,8 +110,12 @@
     background-color: #b93a5c;
     padding: 5px 10px;
     text-align: center;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
     border: none;
+    font-family: arial;
+    font-size: 0.8vw;
+    font-weight: 200;
+    text-decoration: none;
 }
 
 .sidebarItemButton-footer2:hover {

@@ -72,19 +72,16 @@
 .sidebarItemButton {
     background-color: whitesmoke;
     border: 2px solid black;
-    /*padding: 25px 27px;*/
-    height: 7vh;
-    width: 7vw;
+    padding: 30px 32px;
     text-align: center;
     display: inline-block;
     transition-duration: 0.4s;
-    font-size: 16px;
-    font-weight: 400;
     margin-right: 4px;
-
     text-decoration: none;
     color: black;
-    font-family: arial; 
+    font-family: arial;
+    font-size: 0.8vw;
+    font-weight: 200;
 }
 
 .sidebarItemButton:hover {
@@ -100,6 +97,11 @@
     text-align: center;
     transition-duration: 0.4s;
     border: none;
+    font-family: arial;
+    font-size: 0.8vw;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
 }
 
 .sidebarItemButton-footer:hover {
@@ -125,8 +127,12 @@
     background-color: #b93a5c;
     padding: 5px 10px;
     text-align: center;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
     border: none;
+    font-family: arial;
+    font-size: 0.8vw;
+    font-weight: 200;
+    text-decoration: none;
 }
 
 .sidebarItemButton-footer2:hover {
@@ -156,7 +162,8 @@
     background-color: white;
     border: 2px solid black;
     /*padding: 25px 27px;*/
-    height: 4vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     width: 18vw;
     text-align: center;
     display: inline-block;
@@ -164,6 +171,9 @@
     font-size: 16px;
     font-weight: 400;
     margin-right: 4px;
+    font-family: arial;
+    color: black;
+    text-decoration: none;
 }
 
 .learnmore:hover {
@@ -175,7 +185,8 @@
     background-color: white;
     border: 2px solid black;
     /*padding: 25px 27px;*/
-    height: 4vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     width: 14vw;
     text-align: center;
     display: inline-block;
@@ -183,6 +194,9 @@
     font-size: 16px;
     font-weight: 400;
     margin-right: 4px;
+    font-family: arial;
+    color: black;
+    text-decoration: none;
 }
 
 .learnmore2:hover {

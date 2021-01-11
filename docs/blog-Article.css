@@ -115,7 +115,6 @@
     height: 40px;
     border-top: 2px solid black;
     bottom: 0;
-    position: absolute;
 
     
 }
@@ -133,3 +132,21 @@
 }
 
 /* END OF FOOTER */
+
+.imgBorder {
+    border: 2px solid black;
+}
+
+.links{
+    display: flex;
+    flex-flow: column;
+}
+
+.article p {
+    background-color: whitesmoke;
+    padding-left: 1%;
+    font-size: 18px;
+    text-align: left;
+    float: left;
+    padding: 1%;
+}

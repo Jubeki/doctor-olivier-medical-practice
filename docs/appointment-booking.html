@@ -57,14 +57,14 @@
             <form action="/action_page.php">
 
 
-                <label for="name">Name</label>
+                <label for="nameID" >Name</label>
                 <input type="text" class="name" id="nameID" name="name" placeholder="Your name.." />
 
-                <label for="birthday">Birthdate</label><br />
+                <label for="birthdayID">Birthdate</label><br />
                 <input type="date" id="birthdayID" name="birthday" />
                 <br /><br />
 
-                <label for="policy">Policy Number</label>
+                <label for="policyID">Policy Number</label>
                 <input type="text" id="policyID" name="policy" placeholder="Your policy number.." />
 
                 <label for="appType">Appointment Type:</label>
@@ -75,7 +75,7 @@
                 </select>
                 <br />
                 <label for="appReason">Appointment Reason:</label>
-                <select onchange="yesnoCheck(this);" name="appReason">
+                <select onchange="yesnoCheck(this);" name="appReason" id="appReason">
                     <option class="non" value="Sickness/General Health Examination">Sickness/General Health Examination</option>
                     <option class="non" value="Routine Checkup">Routine Checkup</option>
                     <option class="non" value="Cancer screening Examination">Cancer screening Examination</option>
@@ -90,7 +90,8 @@
 
                 <button class="popup" onclick="myFunction()">
                     Make an Appointment
-                    <a href="../xml/appointments.xml"><span class="popuptext" id="myPopup">Click me to see available Appointments</span></a>
+                    <!--href="../xml/appointments.xml"-->
+                    <span style="text-decoration:none" class="popuptext" id="myPopup">Click me to see available Appointments</span>
                     <span class="popuptext" id="elsePopup">Please make sure that you have filled out everything </span>
                 </button>
 
@@ -158,8 +159,4 @@
     </div>
     </body>
 
-
-
-
-
-</head></html>
+</html>

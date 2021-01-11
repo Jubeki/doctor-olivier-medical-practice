@@ -81,6 +81,10 @@
     font-size: 16px;
     font-weight: 400;
     margin-right: 4px;
+
+    text-decoration: none;
+    color: black;
+    font-family: arial; 
 }
 
 .sidebarItemButton:hover {

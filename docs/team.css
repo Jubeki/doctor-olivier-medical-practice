@@ -77,6 +77,11 @@
     display: inline-block;
     transition-duration: 0.4s;
     margin-right: 4px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 0.8vw;
+    font-weight: 200;
 }
 
     .sidebarItemButton:hover {

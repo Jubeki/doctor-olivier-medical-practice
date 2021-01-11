@@ -64,14 +64,19 @@
     border: 2px solid black;
 }
 
-.sidebarItemButton{
+.sidebarItemButton {
     background-color: whitesmoke;
     border: 2px solid black;
     padding: 20px 22px;
     text-align: center;
     display: inline-block;
-    transition-duration:0.4s;
+    transition-duration: 0.4s;
     margin-right: 4px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 0.8vw;
+    font-weight: 200;
 }
 
 .sidebarItemButton:hover{

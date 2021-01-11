@@ -8,7 +8,7 @@ Alexander Mueller
 
 Carlo Bueckert  
 - index, contact, corona, data-protection-notice, services, team, prescriptions pages  
-- html and css validation checking of said pages + buttons on all pages  
+- html and css validation checking of said pages  
 - footer  
 - refine header and footer  
 - adaptive design to accomodate scaling and smaller screens  

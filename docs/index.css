@@ -72,7 +72,7 @@
 .sidebarItemButton {
     background-color: whitesmoke;
     border: 2px solid black;
-    padding: 30px 32px;
+    padding: 2vh 2vw;
     text-align: center;
     display: inline-block;
     transition-duration: 0.4s;
@@ -80,7 +80,7 @@
     text-decoration: none;
     color: black;
     font-family: arial;
-    font-size: 0.8vw;
+    font-size: 1.5vw;
     font-weight: 200;
 }
 

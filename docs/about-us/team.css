@@ -1,244 +1,247 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    /* We first create a flex layout context */
-    display: flex;
-    flex-flow: column;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    min-height: 100vh;
+  /* We first create a flex layout context */
+  display: flex;
+  flex-flow: column;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
-    .container > * {
-        flex: 1 100%;
-    }
+.container>* {
+  flex: 1 100%;
+}
 
 .header {
-    background: #b93a5c;
-    background: white;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    border-bottom: 2px solid black;
+  background: #b93a5c;
+  background: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .body {
-    background-color: whitesmoke;
-    margin: 0 auto;
-    flex-flow: row;
-    margin-top: 7%;
-    font-family: arial;
-    font-weight: 200;
-    height: 70%;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  flex-flow: row;
+  margin-top: 7%;
+  font-family: arial;
+  font-weight: 200;
+  height: 70%;
 }
 
 .infos {
-    margin-top: 1%;
-    font-family: arial;
-    font-weight: 200;
+  margin-top: 1%;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .infos p {
-    color: whitesmoke;
-    color: black;
-    font-family: arial;
-    font-weight: 200;
-    font-size: 0.8vw;
+  color: whitesmoke;
+  color: black;
+  font-family: arial;
+  font-weight: 200;
+  font-size: 0.8vw;
 }
 
 @media (max-width: 800px) {
-    .infos, .docphoto {
-        display: none !important;
-    }
+
+  .infos,
+  .docphoto {
+    display: none !important;
+  }
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .docphoto {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .sidebarItemButton {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    padding: 20px 22px;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-right: 4px;
-    text-decoration: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 20px 22px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-right: 4px;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
 }
 
-    .sidebarItemButton:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.sidebarItemButton:hover {
+  background-color: #da5378;
+  color: whitesmoke;
+}
 
 
 
 /* END OF HEADER CSS */
 
 .sidebarItemButton-footer {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
-    color: black;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
 }
 
-    .sidebarItemButton-footer:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.sidebarItemButton-footer:hover {
+  background-color: #da5378;
+  color: whitesmoke;
+}
 
 .footer {
-    background: #b93a5c;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    border-top: 2px solid black;
-    
-    position: absolute;
-    bottom: 0;
-    height: 2.5rem;
-    width: 100%;
-    
+  background: #b93a5c;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid black;
+
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+  width: 100%;
+
 }
 
 .sidebarItemButton-footer2 {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
 }
 
 .sidebarItemButton-footer2:hover {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
-.body{
-    background-color: whitesmoke;
-    padding-top: 25%;
-    font-family: arial;
-    font-weight: 200;
+.body {
+  background-color: whitesmoke;
+  padding-top: 25%;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .quote {
-    background-color: whitesmoke;
-    margin-top: 7%;
-    font-size: 25px;
-    width: 100%;
-    align-self: center;
-    font-family: arial;
-    font-weight: 700;
-    font-size: 30px;
+  background-color: whitesmoke;
+  margin-top: 7%;
+  font-size: 25px;
+  width: 100%;
+  align-self: center;
+  font-family: arial;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .scrollformore {
-    background-color: whitesmoke;
-    margin-top: 30vh;
-    font-size: 25px;
-    align-self: center;
-    font-family: arial;
-    font-weight: 200;
-    padding-bottom: 20vh;
+  background-color: whitesmoke;
+  margin-top: 30vh;
+  font-size: 25px;
+  align-self: center;
+  font-family: arial;
+  font-weight: 200;
+  padding-bottom: 20vh;
 }
 
 .teamdes {
-    font-family: arial;
-    font-weight: 200;
-    background-color: whitesmoke;
-    padding-left: 1%;
-    font-size: 18px;
-    text-align: left;
-    float: left;
-    width: 40%;
+  font-family: arial;
+  font-weight: 200;
+  background-color: whitesmoke;
+  padding-left: 1%;
+  font-size: 18px;
+  text-align: left;
+  float: left;
+  width: 40%;
 }
 
 .des-photo {
-    margin: 0 auto;
-    flex-flow: row;
-    padding-top: 2%;
-    font-family: arial;
-    background-color: whitesmoke;
-    font-weight: 200;
-    height: 60%;
+  margin: 0 auto;
+  flex-flow: row;
+  padding-top: 2%;
+  font-family: arial;
+  background-color: whitesmoke;
+  font-weight: 200;
+  height: 60%;
 }
 
 .teamdes2 {
-    font-family: arial;
-    font-weight: 200;
-    background-color: white;
-    font-size: 18px;
-    text-align: right;
-    float: right;
-    margin-right: 2vw;
-    width: 40%;
+  font-family: arial;
+  font-weight: 200;
+  background-color: white;
+  font-size: 18px;
+  text-align: right;
+  float: right;
+  margin-right: 2vw;
+  width: 40%;
 }
 
 .des-photo2 {
-    flex-flow: row;
-    padding-left: 1%;
-    font-family: arial;
-    background-color: white;
-    font-weight: 200;
-    height: 60%;
+  flex-flow: row;
+  padding-left: 1%;
+  font-family: arial;
+  background-color: white;
+  font-weight: 200;
+  height: 60%;
 
 }
 
 .askmy-img {
-    display: flex;
-    flex-direction: column;
-    background-color: whitesmoke;
-    margin: 20px;
-    width: 25%;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin: 20px;
+  width: 25%;
 }
 
 img.sticky {
-    position: fixed;
-    padding: 20px;
-    width: 20%;
-    margin: 20px;
+  position: fixed;
+  padding: 20px;
+  width: 20%;
+  margin: 20px;
 }
 
 .whitesmoteback {
-    background-color: whitesmoke;
-    padding-bottom: 5rem;
+  background-color: whitesmoke;
+  padding-bottom: 5rem;
 }
 
 .page-container {
-    position: relative;
-    min-height: 100vh;
+  position: relative;
+  min-height: 100vh;
 }
 
 .content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
+  padding-bottom: 2.5rem;
+  /* Footer height */
 }
 
 /*
@@ -250,3 +253,4 @@ height: 2.5rem;
 
 
 */
+

@@ -1,87 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    /* We first create a flex layout context */
-    display: flex;
-    flex-flow: column;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    min-height: 100vh;
+  /* We first create a flex layout context */
+  display: flex;
+  flex-flow: column;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
-    .container > * {
-        flex: 1 100%;
-    }
+.container>* {
+  flex: 1 100%;
+}
 
 .header {
-    background: #b93a5c;
-    background: white;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    border-bottom: 2px solid black;
+  background: #b93a5c;
+  background: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .body {
-    background: aquamarine;
-    padding-top: 15%;
+  background: aquamarine;
+  padding-top: 15%;
 }
 
 .infos {
-    margin-top: 1%;
-    font-family: arial;
-    font-weight: 200;
+  margin-top: 1%;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .infos p {
-    color: whitesmoke;
-    color: black;
-    font-size: 0.8vw;
-    font-family: arial;
-    font-weight: 200;
+  color: whitesmoke;
+  color: black;
+  font-size: 0.8vw;
+  font-family: arial;
+  font-weight: 200;
 }
 
 @media (max-width: 800px) {
-    .infos, .docphoto {
-        display: none !important;
-    }
+
+  .infos,
+  .docphoto {
+    display: none !important;
+  }
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .docphoto {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .sidebarItemButton {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    padding: 20px 22px;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-right: 4px;
-    text-decoration: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 20px 22px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-right: 4px;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
 }
 
 .sidebarItemButton:hover {
-    background-color: #da5378;
-    color: whitesmoke;
+  background-color: #da5378;
+  color: whitesmoke;
 }
 
 
@@ -89,115 +91,117 @@
 /* END OF HEADER CSS */
 
 .sidebarItemButton-footer {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
-    color: black;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
 }
 
-    .sidebarItemButton-footer:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.sidebarItemButton-footer:hover {
+  background-color: #da5378;
+  color: whitesmoke;
+}
 
 .footer {
-    background: #b93a5c;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 40px;
-    border-top: 2px solid black;
-    position: absolute;
-    bottom: 0;
-    height: 2.5rem;
+  background: #b93a5c;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-top: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
 }
 
 .sidebarItemButton-footer2 {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
 }
 
 .sidebarItemButton-footer2:hover {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 /* END OF FOOTER */
 
 .covid-info {
-    background-color: whitesmoke;
-    padding-top: 10%;
-    padding-left: 1%;
-    font-size: 14px;
-    text-align: left;
-    float: right;
-    padding: 1%;
-    width: 70%;
-    font-family: 'Arial';
-    font-weight: 200;
+  background-color: whitesmoke;
+  padding-top: 10%;
+  padding-left: 1%;
+  font-size: 14px;
+  text-align: left;
+  float: right;
+  padding: 1%;
+  width: 70%;
+  font-family: 'Arial';
+  font-weight: 200;
 }
 
 .covid-info.p.b {
-    font-family: 'Arial';
-    background-color: whitesmoke;
-    font-weight: 700;
+  font-family: 'Arial';
+  background-color: whitesmoke;
+  font-weight: 700;
 }
 
 .covid {
-    margin: 0 auto;
-    flex-flow: row;
-    margin-top: 5%;
-    background-color: whitesmoke;
-    padding-bottom: 2.5rem;    /* Footer height */
+  margin: 0 auto;
+  flex-flow: row;
+  margin-top: 5%;
+  background-color: whitesmoke;
+  padding-bottom: 2.5rem;
+  /* Footer height */
 }
 
 .covid-imgs {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4%;
-    background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  background-color: whitesmoke;
 }
 
 img.sticky {
-    position: fixed;
-    padding: 20px;
-    width: 20%;
-    margin: 1%;
+  position: fixed;
+  padding: 20px;
+  width: 20%;
+  margin: 1%;
 }
 
 img.sticky2 {
-    position: fixed;
-    padding: 20px;
-    width: 20%;
-    margin: 20px;
-    padding-top: 14%;
+  position: fixed;
+  padding: 20px;
+  width: 20%;
+  margin: 20px;
+  padding-top: 14%;
 }
 
 iframe.sticky3 {
-    position: fixed;
-    padding: 20px;
-    margin: 20px;
-    padding-top: 21%;
+  position: fixed;
+  padding: 20px;
+  margin: 20px;
+  padding-top: 21%;
 }
 
 .charts {
-    color: white;
-    background-color: whitesmoke;
-    padding: 20px;
-    padding-top: 1%;
-    flex-direction: row;
+  color: white;
+  background-color: whitesmoke;
+  padding: 20px;
+  padding-top: 1%;
+  flex-direction: row;
 }
+

@@ -1,293 +1,297 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    /* We first create a flex layout context */
-    display: flex;
-    flex-flow: column;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    min-height: 100vh;
+  /* We first create a flex layout context */
+  display: flex;
+  flex-flow: column;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
-    .container > * {
-        flex: 1 100%;
-    }
+.container>* {
+  flex: 1 100%;
+}
 
 .header {
-    background: #b93a5c;
-    background: white;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    border-bottom: 2px solid black;
+  background: #b93a5c;
+  background: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .body {
-    background: whitesmoke;
-        margin: 0 auto;
-    flex-flow: row;
-    margin-top: 7%;
-    font-family: arial;
-    font-weight: 200;
-    height: 70%;
-    padding-bottom: 2.5rem;    /* Footer height */
+  background: whitesmoke;
+  margin: 0 auto;
+  flex-flow: row;
+  margin-top: 7%;
+  font-family: arial;
+  font-weight: 200;
+  height: 70%;
+  padding-bottom: 2.5rem;
+  /* Footer height */
 
 }
 
 .infos {
-    margin-top: 1%;
-    font-family: arial;
-    font-weight: 200;
+  margin-top: 1%;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .infos p {
-    color: whitesmoke;
-    color: black;
-    font-size: 0.8vw;
-    font-family: arial;
-    font-weight: 200;
+  color: whitesmoke;
+  color: black;
+  font-size: 0.8vw;
+  font-family: arial;
+  font-weight: 200;
 }
 
 @media (max-width: 800px) {
-    .infos, .docphoto {
-        display: none !important;
-    }
+
+  .infos,
+  .docphoto {
+    display: none !important;
+  }
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .docphoto {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .sidebarItemButton {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    padding: 20px 22px;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-right: 4px;
-    text-decoration: none;
-    color: black;
-    font-family: arial; 
-    font-size: 0.8vw;
-    font-weight: 200;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 20px 22px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-right: 4px;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
 }
 
-    .sidebarItemButton:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.sidebarItemButton:hover {
+  background-color: #da5378;
+  color: whitesmoke;
+}
 
 
 
 /* END OF HEADER CSS */
 
 .sidebarItemButton-footer {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
 }
 
-    .sidebarItemButton-footer:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.sidebarItemButton-footer:hover {
+  background-color: #da5378;
+  color: whitesmoke;
+}
 
 .footer {
-    background: #b93a5c;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 40px;
-    border-top: 2px solid black;
-    position: absolute;
-    bottom: 0;
-    height: 2.5rem;
+  background: #b93a5c;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-top: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
 }
 
 .sidebarItemButton-footer2 {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
 }
 
-    .sidebarItemButton-footer2:hover {
-        color: whitesmoke;
-    }
+.sidebarItemButton-footer2:hover {
+  color: whitesmoke;
+}
 
 /* END OF FOOTER */
 
-.row{
-    display: flex;
-    flex-flow: row;
+.row {
+  display: flex;
+  flex-flow: row;
 }
 
 .img {
-    align-self: center;
-    width: 20%;
-    
+  align-self: center;
+  width: 20%;
+
 }
 
 .imgBorder {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
-.article{
-    align-elf: center;
-    width: 60%;
-    margin-left: 10%;
+.article {
+  align-elf: center;
+  width: 60%;
+  margin-left: 10%;
 
 }
 
 .leftcolumn {
-    float: left;
-    width: 80%;
-    padding: 40px;
+  float: left;
+  width: 80%;
+  padding: 40px;
 }
 
 /* Right column */
 .rightcolumn {
-    display: flex;
-    flex-flow: column;
-    float: center;
-    width: 30%;
-    border-left: 2px solid black;
-    padding-left: 3vw;
-    padding-right: 3vw;
+  display: flex;
+  flex-flow: column;
+  float: center;
+  width: 30%;
+  border-left: 2px solid black;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
-.rightCard{
-    display: flex;
-    flex-flow: column;
-    padding-bottom: 2vw;
+.rightCard {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 2vw;
 
 }
 
 .popularPostButton {
-    display: inline-block;
-    padding: 1vw 1vw;
+  display: inline-block;
+  padding: 1vw 1vw;
 }
 
-.text{
-    text-align: center;
-    
+.text {
+  text-align: center;
+
 }
 
 
 .artButton {
-    background-color: white;
-    color: black;
-    border: 2px solid #da5378;
+  background-color: white;
+  color: black;
+  border: 2px solid #da5378;
 }
 
-.aboutMe{
-    margin-bottom: 2vw;
+.aboutMe {
+  margin-bottom: 2vw;
 }
 
 /* Add a card effect for articles */
 .card {
-    display: flex;
-    flex-flow: row;
-    padding-bottom: 2vw;
+  display: flex;
+  flex-flow: row;
+  padding-bottom: 2vw;
 }
 
 /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .h2 {
-    background-color: azure;
-    font-family: Avenir;
-    border: 2px solid black;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 12px;
-    transition-duration: 0.4s;
+  background-color: azure;
+  font-family: Avenir;
+  border: 2px solid black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  transition-duration: 0.4s;
 }
 
-    .h2:hover {
-        background-color: #912441;
-        font-family: Avenir;
-        color: white;
-    }
+.h2:hover {
+  background-color: #912441;
+  font-family: Avenir;
+  color: white;
+}
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+  background: #3B5998;
+  color: white;
 }
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55ACEE;
+  color: white;
 }
 
 .fa-instagram {
-    background: #125688;
-    color: white;
+  background: #125688;
+  color: white;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .readMore {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-right: 4px;
-    text-decoration: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-right: 4px;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
 }
 
-    .readMore:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.readMore:hover {
+  background-color: #da5378;
+  color: whitesmoke;
+}
+

@@ -1,160 +1,163 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    /* We first create a flex layout context */
-    display: flex;
-    flex-flow: column;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    min-height: 100vh;
+  /* We first create a flex layout context */
+  display: flex;
+  flex-flow: column;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
-.container > * {
-    flex: 1 100%;
+.container>* {
+  flex: 1 100%;
 }
 
 .contact-info p {
-    padding-left: 5vw;
-    border-left: 4px solid;
-    border-color: lightgray;
-}
-.header{
-    background: #b93a5c;
-    background: white;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    border-bottom: 2px solid black;
+  padding-left: 5vw;
+  border-left: 4px solid;
+  border-color: lightgray;
 }
 
-.body{
-    background: aquamarine;
-    padding-top: 15%;
+.header {
+  background: #b93a5c;
+  background: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.body {
+  background: aquamarine;
+  padding-top: 15%;
 }
 
 .infos {
-    margin-top: 1%;
-    font-family: arial;
-    font-weight: 200;
+  margin-top: 1%;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .infos p {
-    color: whitesmoke;
-    color: black;
-    font-family: arial;
-    font-weight: 200;
-    font-size:0.8vw;
+  color: whitesmoke;
+  color: black;
+  font-family: arial;
+  font-weight: 200;
+  font-size: 0.8vw;
 }
 
 @media (max-width: 800px) {
-    .infos, .docphoto {
-        display: none !important;
-    }
+
+  .infos,
+  .docphoto {
+    display: none !important;
+  }
 }
 
-.sidebar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .docphoto {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .sidebarItemButton {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    padding: 20px 22px;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-right: 4px;
-    text-decoration: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 20px 22px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-right: 4px;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
 }
 
-.sidebarItemButton:hover{
-    background-color: #da5378;
-    color: whitesmoke;
+.sidebarItemButton:hover {
+  background-color: #da5378;
+  color: whitesmoke;
 }
 
 .popup {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    padding: 20px 22px;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-right: 4px;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 20px 22px;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-right: 4px;
 }
 
-    .popup:hover {
-        background-color: #da5378;
-        color: whitesmoke;
-    }
+.popup:hover {
+  background-color: #da5378;
+  color: whitesmoke;
+}
 
 
 
 /* END OF HEADER CSS */
 
 .sidebarItemButton-footer {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
 }
 
 .sidebarItemButton-footer:hover {
-    background-color: #da5378;
-    color: whitesmoke;
+  background-color: #da5378;
+  color: whitesmoke;
 }
 
 .footer {
-    background: #b93a5c;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 40px;
-    border-top: 2px solid black;
-    position: absolute;
-    bottom: 0;
-    height: 2.5rem;
+  background: #b93a5c;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-top: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
 }
 
 .sidebarItemButton-footer2 {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    color: black;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  color: black;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
 }
 
 .sidebarItemButton-footer2:hover {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 /* END OF FOOTER */
@@ -162,175 +165,179 @@
 
 
 .contact-info {
-    background: whitesmoke;
-    background-color: whitesmoke;
-    padding-left: 1%;
-    font-size: 18px;
-    text-align: left;
-    float: left;
-    padding: 1%;
-    width: 60%;
+  background: whitesmoke;
+  background-color: whitesmoke;
+  padding-left: 1%;
+  font-size: 18px;
+  text-align: left;
+  float: left;
+  padding: 1%;
+  width: 60%;
 }
 
 .contact {
-    background-color: whitesmoke;
-    margin: 0 auto;
-    flex-flow: row;
-    margin-top: 2%;
-    font-family: arial;
-    font-weight: 200;
-    height: 70%;
-    padding-bottom: 2.5rem;    /* Footer height */
+  background-color: whitesmoke;
+  margin: 0 auto;
+  flex-flow: row;
+  margin-top: 2%;
+  font-family: arial;
+  font-weight: 200;
+  height: 70%;
+  padding-bottom: 2.5rem;
+  /* Footer height */
 }
 
 .askmy-img {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 25%;
 }
 
 .askmy-img a {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 25%;
 }
 
 img.sticky {
-    position: fixed;
-    padding: 20px;
-    width: 20%;
-    margin: 20px;
+  position: fixed;
+  padding: 20px;
+  width: 20%;
+  margin: 20px;
 }
 
 .a href {
-    position: fixed;
-    padding: 20px;
-    width: 20%;
-    margin: 20px;
+  position: fixed;
+  padding: 20px;
+  width: 20%;
+  margin: 20px;
 }
 
 table {
-    font-family: arial;
-    font-weight: 200;
-    background-color: whitesmoke;
-    border-collapse: collapse;
-    width: 100%;
+  font-family: arial;
+  font-weight: 200;
+  background-color: whitesmoke;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 th {
-    border: 1px solid #dddddd;
-    text-align: center;
-    padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
 }
 
 td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
 /* FORM HERE */
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+  background-color: #dddddd;
 }
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 input[type=submit] {
-    background-color: #b93a5c;
-    color: whitesmoke;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #b93a5c;
+  color: whitesmoke;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 input[type=submit]:hover {
-    background-color: #a83453;
+  background-color: #a83453;
 }
 
 .form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    background-color: whitesmoke;
-    padding-top: 2%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  background-color: whitesmoke;
+  padding-top: 2%;
 }
 
 .popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-    /* The actual popup */
-    .popup .popuptext {
-        visibility: hidden;
-        width: 160px;
-        background-color: #555;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 8px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 125%;
-        left: 50%;
-        margin-left: -80px;
-    }
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
 
-        /* Popup arrow */
-        .popup .popuptext::after {
-            content: "";
-            position: absolute;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: #555 transparent transparent transparent;
-        }
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
 
-    /* Toggle this class - hide and show the popup */
-    .popup .show {
-        visibility: visible;
-        -webkit-animation: fadeIn 1s;
-        animation: fadeIn 1s;
-    }
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
+  from {
+    opacity: 0;
+  }
 
-    to {
-        opacity: 1;
-    }
+  to {
+    opacity: 1;
+  }
 }
+

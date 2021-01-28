@@ -1,241 +1,245 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    /* We first create a flex layout context */
-    display: flex;
-    flex-flow: column;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    min-height: 100vh;
+  /* We first create a flex layout context */
+  display: flex;
+  flex-flow: column;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
-.container > * {
-    flex: 1 100%;
+.container>* {
+  flex: 1 100%;
 }
 
 .header {
-    background: #b93a5c;
-    background: white;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    border-bottom: 2px solid black;
+  background: #b93a5c;
+  background: white;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .body {
-    background: whitesmoke;
-    padding-bottom: 2.5rem;
+  background: whitesmoke;
+  padding-bottom: 2.5rem;
 
 }
 
 .infos {
-    margin-top: 1%;
-    font-family: arial;
-    font-weight: 200;
+  margin-top: 1%;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .infos p {
-    color: whitesmoke;
-    color: black;
-    font-size: 0.8vw;
-    font-family: arial;
-    font-weight: 200;
+  color: whitesmoke;
+  color: black;
+  font-size: 0.8vw;
+  font-family: arial;
+  font-weight: 200;
 }
 
 @media (max-width: 800px) {
-    .infos, .docphoto {
-        display: none !important;
-    }
-    .hidedoc {
-        border-top: 5vh solid white;
-        margin-top: 5vh;
-    }
+
+  .infos,
+  .docphoto {
+    display: none !important;
+  }
+
+  .hidedoc {
+    border-top: 5vh solid white;
+    margin-top: 5vh;
+  }
 }
 
 .sidebar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .docphoto {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 .sidebarItemButton {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    padding: 2vh 2vw;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    margin-right: 4px;
-    text-decoration: none;
-    color: black;
-    font-family: arial;
-    font-size: 1.5vw;
-    font-weight: 200;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  padding: 2vh 2vw;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  margin-right: 4px;
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 1.5vw;
+  font-weight: 200;
 }
 
 .sidebarItemButton:hover {
-    background-color: #da5378;
-    color: whitesmoke;
+  background-color: #da5378;
+  color: whitesmoke;
 }
 
 /* END OF HEADER CSS */
 
 .sidebarItemButton-footer {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
-    color: black;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
 }
 
 .sidebarItemButton-footer:hover {
-    background-color: #da5378;
-    color: whitesmoke;
+  background-color: #da5378;
+  color: whitesmoke;
 }
 
 .footer {
-    background: #b93a5c;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 40px;
-    border-top: 2px solid black;
-    position: absolute;
-    bottom: 0;
-    height: 2.5rem;
+  background: #b93a5c;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-top: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
 }
 
 .sidebarItemButton-footer2 {
-    background-color: #b93a5c;
-    padding: 5px 10px;
-    text-align: center;
-    transition-duration: 0.4s;
-    border: none;
-    font-family: arial;
-    font-size: 0.8vw;
-    font-weight: 200;
-    text-decoration: none;
+  background-color: #b93a5c;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  border: none;
+  font-family: arial;
+  font-size: 0.8vw;
+  font-weight: 200;
+  text-decoration: none;
 }
 
 .sidebarItemButton-footer2:hover {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .doc-text-photo {
-    background-color: whitesmoke;
-    flex-flow: row;
-    font-family: arial;
-    font-weight: 200;
-    margin-top: 30vh;
+  background-color: whitesmoke;
+  flex-flow: row;
+  font-family: arial;
+  font-weight: 200;
+  margin-top: 30vh;
 }
 
 .doc-text {
-    background: whitesmoke;
-    background-color: whitesmoke;
-    margin-left: 20vw;
-    font-size: 18px;
-    text-align: left;
-    float: left;
-    font-family: arial;
-    font-weight: 200;
+  background: whitesmoke;
+  background-color: whitesmoke;
+  margin-left: 20vw;
+  font-size: 18px;
+  text-align: left;
+  float: left;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .learnmore {
-    background-color: white;
-    border: 2px solid black;
-    /*padding: 25px 27px;*/
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    width: 18vw;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 4px;
-    font-family: arial;
-    color: black;
-    text-decoration: none;
+  background-color: white;
+  border: 2px solid black;
+  /*padding: 25px 27px;*/
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 18vw;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 4px;
+  font-family: arial;
+  color: black;
+  text-decoration: none;
 }
 
 .learnmore:hover {
-    background-color: #da5378;
-    color: whitesmoke;
+  background-color: #da5378;
+  color: whitesmoke;
 }
 
 .learnmore2 {
-    background-color: white;
-    border: 2px solid black;
-    /*padding: 25px 27px;*/
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    width: 14vw;
-    text-align: center;
-    display: inline-block;
-    transition-duration: 0.4s;
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 4px;
-    font-family: arial;
-    color: black;
-    text-decoration: none;
+  background-color: white;
+  border: 2px solid black;
+  /*padding: 25px 27px;*/
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 14vw;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 4px;
+  font-family: arial;
+  color: black;
+  text-decoration: none;
 }
 
 .learnmore2:hover {
-    background-color: #da5378;
-    color: whitesmoke;
+  background-color: #da5378;
+  color: whitesmoke;
 }
 
 .someinfo {
-    background-color: white;
-    border-top: 5vh solid white;
-    border-bottom: 5vh solid white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10vh;
-    font-family: arial;
-    font-weight: 200;
+  background-color: white;
+  border-top: 5vh solid white;
+  border-bottom: 5vh solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10vh;
+  font-family: arial;
+  font-weight: 200;
 }
 
 .oneinfo {
-    background-color: white;
-    margin: 0 auto;
-    flex-flow: column;
-    font-family: arial;
-    font-weight: 200;
-    text-align: left;
-    width: 14vw;
-    align-content: flex-start;
+  background-color: white;
+  margin: 0 auto;
+  flex-flow: column;
+  font-family: arial;
+  font-weight: 200;
+  text-align: left;
+  width: 14vw;
+  align-content: flex-start;
 }
 
 .line {
-    width: 15px;
-    background-color: red;
-    height: 3px;
+  width: 15px;
+  background-color: red;
+  height: 3px;
 }
 
 .headerinfo {
-    font-family: arial;
-    text-align: left;
-    font-weight: 600;
-    font-size: 20px;
+  font-family: arial;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
 }
+

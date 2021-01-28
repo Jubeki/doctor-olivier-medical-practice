@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Make an Appointment - Get in touch / Doctor Olivier</title>
 
@@ -159,11 +160,17 @@
       </div>
 
       <footer class="footer">
-        <div class="sidebar">
-
-          <a class="sidebarItemButton-footer2">&copy; 2021 jubeki</a>
+        <div class="sidebar" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+          
+          <div class="sidebarItemButton-footer2">
+            <div itemprop="copyrightHolder" itemscope itemtype="https://schema.org/Organization">
+              <p> <span itemprop="legalName">&copy; jubeki</span> <span itemprop="copyrightYear">2021</span></p>
+            </div>
+          </div>
+          
           <a href="../about-us/data-usage/data-protection-notice.html" class="sidebarItemButton-footer">Data Protection Notice</a>
           <a href="./contact.html" class="sidebarItemButton-footer">Contact</a>
+          
         </div>
       </footer>
 

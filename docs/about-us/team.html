@@ -8,6 +8,61 @@
     <title>Our Team – Dr Oliviers amazing team / Doctor Olivier</title>
     <!--<meta name="description" cont"This is an example of a meta description. This will often show up in search results.">-->
     <meta name="description" content="Learn more about the amazing team that helps Dr Olivier at his local pharmacy.">
+    
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "image": "https://jubeki.github.io/doctor-olivier-medical-practice/images/logo.png",
+        "telephone": "+44 131 229 0000",
+        "name": "Dr. med. Corey B. Olivier",
+        "email": "team@doctor-olivier.uk",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Ross Gardens 43",
+          "addressLocality": "Edinburgh",
+          "postalCode": "EH9 3BP"
+        },
+        "member": [
+          {
+            "@type": "OrganizationRole",
+            "member": {
+              "@type": "Person",
+              "name": "Dr. med. Corey B. Olivier"
+            },
+            "startDate": "2006",
+            "roleName": "Head"
+          },
+          {
+            "@type": "OrganizationRole",
+            "member": {
+              "@type": "Person",
+              "name": "Caroline Harrison"
+            },
+            "startDate": "2008",
+            "roleName": "Team Manager"
+          },
+          {
+            "@type": "OrganizationRole",
+            "member": {
+              "@type": "Person",
+              "name": "Sara Mireya"
+            },
+            "startDate": "2006",
+            "roleName": "Medic"
+          },
+          {
+            "@type": "OrganizationRole",
+            "member": {
+              "@type": "Person",
+              "name": "Rachel Robertson"
+            },
+            "startDate": "2019",
+            "roleName": "Trainee"
+          },
+        ]
+      }
+    </script>
 
     <link rel="stylesheet" type="text/css" href="team.css" />
 
@@ -72,13 +127,13 @@
 
 
         <div class="des-photo">
-          <div class="teamdes">
+          <div class="teamdes" itemprop="founder" itemscope itemtype="http://schema.org/Person">
             <p style="font-size: 1vw;">
               It is only thanks to the good cooperation in our practice team that we can take care of you - our patients - intensively. Our employees are all qualified, trained professionals who are always very committed to helping patients.<br><br>
 
               The certificates issued for voluntary further training measures are an expression of the regular training activities. By actively participating in these further training measures, we not only ensure the quality of medical care for our patients, but are also up to date with the latest medical knowledge. This means that our patients can be sure that they will be advised and treated based on the latest findings.<br><br>
 
-              <b>Dr. med. Corey B. Olivier</b>:<br><br>
+              <b itemprop="name">Dr. med. Corey B. Olivier</b>:<br><br>
 
               The heart of our practice<br><br>
             </p>
@@ -96,10 +151,10 @@
 
         <div class="des-photo2">
 
-          <div class="teamdes2">
+          <div class="teamdes2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
             <p style="font-size: 1.3vw;">
               <br><br>
-              <b>Caroline Harrison</b>:<br><br>
+              <b itemprop="name">Caroline Harrison</b>:<br><br>
 
               The team manager and our "secret boss".<br><br>
 
@@ -119,9 +174,9 @@
         </div>
 
         <div class="des-photo">
-          <div class="teamdes">
+          <div class="teamdes" itemprop="employee" itemscope itemtype="http://schema.org/Person">
             <p style="font-size: 1.3vw;">
-              <b>Sara Mireya</b>:<br><br>
+              <b itemprop="name">Sara Mireya</b>:<br><br>
 
               Sara has been there from the start.<br><br>
 
@@ -138,10 +193,10 @@
 
 
         <div class="des-photo2">
-          <div class="teamdes2">
+          <div class="teamdes2" itemprop="employee" itemscope itemtype="http://schema.org/Person">
             <p style="font-size: 1.3vw;">
               <br><br>
-              <b>Rachel Robertson</b>:<br><br>
+              <b itemprop="name">Rachel Robertson</b>:<br><br>
 
               Rachel, our new trainee, has been a valuable addition to our practice team since August 2019. She is already supporting the entire team in an exemplary manner. She gets to know new medical facts every day and is continuously expanding her knowledge.<br><br>
             </p>

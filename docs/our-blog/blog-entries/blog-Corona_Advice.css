@@ -155,9 +155,16 @@
 .article p {
   background-color: whitesmoke;
   padding-left: 1%;
-  font-size: 18px;
+  font-size: 1vw;
   text-align: left;
   float: left;
   padding: 1%;
 }
 
+.h5 {
+	color: #b93a5c;
+}
+
+.ul {
+	font-size: 1.5vw;
+}

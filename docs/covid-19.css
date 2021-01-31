@@ -159,6 +159,10 @@
   font-weight: 700;
 }
 
+.covid-info p {
+	font-size: 1vw;
+}
+
 .covid {
   margin: 0 auto;
   flex-flow: row;

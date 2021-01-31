@@ -147,7 +147,16 @@
   flex-flow: row;
   font-family: arial;
   font-weight: 200;
-  margin-top: 30vh;
+    margin-top: 23vh;
+
+
+}
+
+.breadcrumb {
+    margin-top: 23vh;
+	padding-left: 2vw;
+	display: flex;
+	flex-flow: row;
 }
 
 .doc-text {
@@ -228,6 +237,14 @@
   text-align: left;
   width: 14vw;
   align-content: flex-start;
+}
+
+.oneinfo p {
+	font-size: 1vw;
+}
+
+.learnmore2 {
+	font-size: 1vw;
 }
 
 .line {

@@ -152,8 +152,8 @@
 }
 
 .quote {
-  background-color: whitesmoke;
   margin-top: 7%;
+  background-color: whitesmoke;
   font-size: 25px;
   width: 100%;
   align-self: center;
@@ -232,6 +232,7 @@ img.sticky {
 .whitesmoteback {
   background-color: whitesmoke;
   padding-bottom: 5rem;
+  
 }
 
 .page-container {
@@ -242,6 +243,13 @@ img.sticky {
 .content-wrap {
   padding-bottom: 2.5rem;
   /* Footer height */
+}
+
+.breadcrumb {
+    margin-top: 3vh;
+	padding-left: 2vw;
+	display: flex;
+	flex-flow: row;
 }
 
 /*

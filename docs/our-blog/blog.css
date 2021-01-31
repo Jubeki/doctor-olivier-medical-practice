@@ -171,6 +171,10 @@
 
 }
 
+.article p{
+	font-size: 1vw;
+}
+
 .leftcolumn {
   float: left;
   width: 80%;
@@ -241,10 +245,18 @@
   transition-duration: 0.4s;
 }
 
+.rightCard p {
+	font-size: 1vw;
+}
+
 .h2:hover {
   background-color: #912441;
   font-family: Avenir;
   color: white;
+}
+
+.h5 {
+	color: #b93a5c;
 }
 
 .fa {

@@ -99,16 +99,16 @@
 /* END OF HEADER CSS */
 
 .sidebarItemButton-footer {
-  background-color: #b93a5c;
-  padding: 5px 10px;
-  text-align: center;
-  transition-duration: 0.4s;
-  border: none;
-  color: black;
-  font-family: arial;
-  font-size: 0.8vw;
-  font-weight: 200;
-  text-decoration: none;
+	background-color: #b93a5c;
+	padding: 5px 10px;
+	text-align: center;
+	transition-duration: 0.4s;
+	border: none;
+	color: whitesmoke;
+	font-family: arial;
+	font-size: 0.8vw;
+	font-weight: 200;
+	text-decoration: none;
 }
 
 .sidebarItemButton-footer:hover {
@@ -131,16 +131,17 @@
 }
 
 .sidebarItemButton-footer2 {
-  background-color: #b93a5c;
-  padding: 5px 10px;
-  text-align: center;
-  transition-duration: 0.4s;
-  border: none;
-  color: black;
-  font-family: arial;
-  font-size: 0.8vw;
-  font-weight: 200;
-  text-decoration: none;
+	background-color: #b93a5c;
+	padding: 5px 10px;
+	text-align: center;
+	transition-duration: 0.4s;
+	border: none;
+	color: black;
+	font-family: arial;
+	font-size: 0.8vw;
+	font-weight: 200;
+	text-decoration: none;
+	color: whitesmoke;
 }
 
 .sidebarItemButton-footer2:hover {
